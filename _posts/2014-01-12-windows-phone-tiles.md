@@ -11,8 +11,16 @@ One thing that was unnecessarily hard to figure out was altering the color of th
 
 Devs can get around this by right clicking on the file and clicking "View in code". You'll notice that there's a BackgroundColor property under your selected tile template (eg, &#060;TemplateIcon&#062;...&#060;BackgroundColor&#062;&#060;/BackgroundColor&#062;...&#060;/TemplateIconic&#062;). You can change the color by inserting an RGB value between the BackgroundColor tags.
 
-Here's the catch though: there must be no whitespace between the tags and the value. For example the following xml <b>doesn't</b> work.<code>&#060;BackgroundColor&#062;
+Here's the catch though: there must be no whitespace between the tags and the value. For example, the following xml <b>doesn't</b> work.
+
+<code>&#060;BackgroundColor&#062;
 <span style="margin-left: 15px">#4477aa</span>
-&#060;/BackgroundColor&#062;</code>But the following does:<code>&#060;BackgroundColor&#062;#4477aa&#060;/BackgroundColor&#062;</code>This took me way too long to figure out.It's not documented anywhere official (as far as I know), and googling around didn't really turn up anything immediately. I wonder if this is why so many apps use the theme color instead of choosing their own.
+&#060;/BackgroundColor&#062;</code>
+
+But the following does:
+
+<code>&#060;BackgroundColor&#062;#4477aa&#060;/BackgroundColor&#062;</code>
+
+This took me way too long to figure out. It's not documented anywhere official (as far as I know), and googling around didn't really turn up anything immediately. I wonder if this is why so many apps use the theme color instead of choosing their own.
 
 Regardless, hopefully this will be fixed in future SDK releases.

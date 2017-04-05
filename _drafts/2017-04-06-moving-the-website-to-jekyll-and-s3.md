@@ -61,4 +61,6 @@ tags: updates website
 # Writing posts
  - I use the _drafts folder
  - If you want to preview your markdown in real time on Windows, try out Visual Studio Code with the "Instant Markdown" extension
- - After restarting, any markdown you are editing will be updated in a browser immediately!
+   + After restarting, any markdown you are editing will be updated in a browser immediately!
+ - VS Code also has a preview button in the top right corner
+   + Using the split editor view, you can see the changes in real time in the editor
