@@ -1,0 +1,243 @@
+/* 
+    Document   : newStyle
+    Created on : Jan 10, 2012, 11:06:42 PM
+    Author     : Randy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* body/html */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, input, fieldset, blockquote, iframe {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+    background-color: white;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+    color: black;
+    background: url(footer-top.png) bottom repeat-x;
+}
+
+a { color:cadetblue; }
+a:hover { color: gray; }
+
+#logo {
+    width: 880px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#container {
+    background: url(top-bar2.png) top repeat-x;
+    padding: 0 0 20px 0;
+}
+
+/* header */
+#header {
+    width: 880px; margin: 0 auto; position: relative; overflow: hidden;
+    height: 100px;
+}
+
+    #header ul { list-style: none; }
+    #header ul li {
+        float: left; margin: 0 0 0 45px; 
+        font-size: 20px;
+        /*font: 20px Georgia, Serif;*/
+        letter-spacing: 2px; color:#eeede6;
+        text-shadow: 0px 1px 0px #000;
+    }
+    #header ul li a {
+        display: block; 
+        /*font: 16px Georgia, Serif; */
+        font-size: 16px;
+        letter-spacing: 2px;
+        color:#eeede6;
+        text-decoration: none; margin: 4px 0 0 0;
+    }
+    #header ul li a:hover, #header ul li a:focus { color: #d0cfc8; }
+    #header ul li:first-child { margin: 0; }
+
+    #header ul#nav_left { float: left; margin: 22px 0 0 24px; }
+    #header ul#nav_right { float: right; margin: 22px 24px 0 0; }
+
+  /* h1 - for icon */
+  #header h1 a { }
+  #header h1 a:hover, #header h1 a:focus { }
+
+#content {
+    width: 900px; margin: -240px auto 0 auto;
+    padding: 280px 22px 0 22px;
+}
+
+#content:after {
+    content: ""; display: block; clear: both;
+    padding-bottom: 30px;
+}
+
+#content p {
+    color: #474747; margin: 0 0 30px 0;
+}
+
+/* main_on_left and sidebar_on_right */
+#content #main { width: 710px; float: left; }
+
+#content #main h1 { color: #2f4f4f; font-size: 36px; }
+
+#content #main .project { float: left;font-size: 12px; }
+
+    #content #main .project h1 { padding: 0 10px 25px 0; clear: both; font-weight: normal; }
+    #content #main .project ul { padding: 0 0 10px 20px; }
+    #content #main .project ol { padding: 0 0 10px 20px; }
+    #content #main .project .table { display:inline; width: 670px; line-height: 1.75; }
+        #content #main .project .summary {
+            color: gray; margin-left: 0; width: 350px; text-align: justify;
+        }
+        #content #main .project .bullets {  
+          padding-bottom: 10px; list-style: none; width: 350px; margin-left: 10px; 
+          margin-bottom: 15px; margin-top: 15px;
+        }
+        #content #main .project .bullets li a { color: darkred; text-decoration: none;}
+        #content #main .project .bullets li a:hover { color: gray; }
+        #content #main .project .slide_show { 
+          float: right; padding-right: 10px;  display: inline; margin-left: 25px;
+        }
+        #content #main .project .description {
+            font-size: 14px; /*padding: 10px 0 0 0;*/
+            display: inline; margin: auto; 
+        }
+
+    #content #main .plan {
+        position: relative; margin: 0 0 60px 0; padding: 0 0 10px 0;
+        overflow: hidden;
+    }
+    #content #main .plan h2 {
+        float: left; margin: 10px 0 20px 0; color: #2f4f4f;
+        font-size: 28px; font-weight: normal;
+        width: 610px; display: block; overflow: hidden;
+    }
+    #content #main .plan .plan_lang {
+        position: relative; float: left; width: 90px;
+        padding: 10px 0 0 0; 
+        margin: 10px 0 0 0;
+        font-weight: normal;
+        font-size: 16px;
+        color: gray; text-align: left;
+    }
+    #content #main .plan .description { clear: both; line-height: 1.75; }
+
+    #content #main .post {
+        position: relative; margin: 0 0 60px 0; padding: 0 0 10px 0;
+        overflow: hidden;
+    }
+
+        #content #main .post h2 {
+            float: left; margin: 10px 0 50px 80px; color: #2f4f4f;
+            font-size: 28px; font-weight: normal;
+            letter-spacing: normal; display: block; overflow: hidden;
+	     clear: all;
+        }
+        #content #main .post p.date {
+            position: absolute; left: 0; top: 0;
+            padding: 4px 7px 4px 7px; margin: 0 7px 40px 7px;
+            font-weight: normal;
+            font-size: 40px;
+            color: gray; text-align: center;
+        }
+        #content #main .post p.date span {
+            font-weight: normal;
+            font-size: 20px;
+            display: block; margin: -5px 0 0 0;
+        }
+        #content #main .post .post-content {
+            clear:both; list-style-position: inside;
+            line-height: 1.75; text-align: justify;
+        }
+        #content #main .post .post-content ol {
+            margin: 2 15px 0 15px;
+        }
+        #content #main .post .post-content h2 {
+            float: none; margin: 0px;
+            font-size: 28px; font-weight: normal;
+            letter-spacing: normal; display: block; overflow: hidden;
+	     clear: all;
+        }
+
+        #content #main .post div.labels {
+            margin: 18px 0 0 0; font-size: 13px; text-align: center;
+        }
+        #content #main .post div.labels b {
+            font-weight: normal; color:black; font-size: 13px;
+        }
+        #content #main .post div.labels a {
+            text-decoration: none; color: darkred;
+        }
+        #content #main .post div.labels a:hover { color: gray; }
+        #content #main .post img { display:block; margin: auto; }
+
+    #content #main p#next a {
+        color: darkred; text-decoration: none; float:right;
+    }
+    #content #main p#prev a {
+        color: darkred; text-decoration: none; float: left;
+    }
+/*« Older EntriesNewer Entries »*/
+
+    #content #main .lang { margin: 10px 0 20px 0; width: 600px; clear: both; }
+        #content #main .lang .title a {
+            float: left; margin: 10px 0 10px 20px;
+            font-size: 28px;
+            letter-spacing: normal; overflow: hidden;
+            color: darkred; font-weight: bold; text-decoration: none;
+        }
+        #content #main .lang .title a:hover { color: gray; }
+        #content #main .lang .download a {
+            color: cadetblue; text-decoration: underline; float: left;
+            padding-left: 20px; padding-bottom: 20px; font-size: 12px;
+        }
+        #content #main .lang .download a:hover { color: gray; }
+        #content #main .lang .summary {
+            font-size: 12px; color: gray; float: left; padding-left: 20px;
+            width: 500px; padding-bottom: 0px; margin-bottom: 5px;
+        }
+
+    #content #sidebar {
+        float: right; width: 150px;
+        margin: 0 0 66px 0;
+    }
+
+        #content #sidebar h2 {
+            color: #808080; margin: 10px 0 0 0px; font-weight: normal;
+        }
+        #content #sidebar h2 a { color: darkred; text-decoration: none; }
+        #content #sidebar h2 a:hover { color: gray; }
+
+        #content #sidebar ul {
+            list-style: none; padding-top: 15px; }
+        #content #sidebar ul li {
+            position: relative; margin: 0 0 10px 0;
+            font-size: 12px; text-align: left;
+        }
+        #content #sidebar ul li a { color: darkred; text-decoration: none; }
+        #content #sidebar ul li a:hover { color: gray; }
+        #content #sidebar ul#archive li { margin-right: 10px; }
+        #content #sidebar ul ol {
+            display: none; text-decoration: none; list-style: none;
+            margin: 0;
+        }
+        #content #sidebar ul ol li { padding-left: 10px; }
+
+/* footer */
+#footer {
+    width: 900px; clear: both; color: gray; text-align: right;
+    position: relative; overflow: hidden;
+    margin: 0 auto; padding-bottom: 28px;
+}
+
+.edit_bullet  {
+  size: 200px;
+  font-style: italic;
+  font-size: 14px;
+}
