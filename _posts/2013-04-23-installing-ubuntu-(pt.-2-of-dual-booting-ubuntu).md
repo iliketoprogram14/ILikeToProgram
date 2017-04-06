@@ -7,7 +7,7 @@ tags: dual-boot, cuda
 
 This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series <a href="default.php?post=29">here</a>.
 
-# Some thoughts
+## Some thoughts
 
 The boot process for Windows 8 has changed quite a bit, as documented by [this post](http://neosmart.net/blog/2011/the-new-windows-8-bootloader/){:target="_blank"}. Although there are lots of guides out there for installing Ubuntu on a machine, there isn't a lot of info for some special cases for Windows 8. For example, there's lot of support out there if you want to install Ubuntu on your primary drive (eg, the C drive), but not very much for installing it on a secondary drive. Although this doesn't seem like a big deal, this is kind of bad considering the rise of SSDs and their falling prices; a quick google search about SSD sales brought up an [article from Forbes](http://www.forbes.com/sites/jasonevangelho/2013/04/21/crunching-the-numbers-should-you-buy-a-hybrid-ssd/){:target="_blank"} about considering a hybrid drive. Regardless, the big takeaway is that it's becoming more popular to have a small boot drive with a much larger drive or personal home server for documents and media, so it's not unheard of to want to install another OS on a secondary drive.
 
@@ -15,7 +15,7 @@ That said, this post will walk you through how to install Ubuntu on a secondary 
 
 Note: As I started writing this post, it looks like the Ubuntu community came out with [a guide to install Ubuntu on a Windows 8 machine using UEFI firmware](https://help.ubuntu.com/community/UEFI){:target="_blank"}. This may prove useful for some people, but it still doesn't address the question of booting up Ubuntu on a second disk.
 
-# Prerequisites
+## Prerequisites
 
 First, [you'll need to download Ubuntu](http://www.ubuntu.com/download/desktop){:target="_blank"}. There's usually two types of releases: a release with the latest features which is supported for 18 months, and a "long-term support" release, which is "guaranteed support for five years" from some date. As of the date of this post, Ubuntu 12.10 is the release with the latest features, and Ubuntu 12.04 is the release with long-term support from April 2012. I chose Ubuntu 12.04, for what it's worth. Be sure to download the appropriate architecture (ie, 32 bit or 64 bit).
 
@@ -23,11 +23,11 @@ Once you've downloaded the "iso" file (which is basically a CD/DVD image file), 
 
 Once you've completed these steps, you should now have a bootable flash drive with which you can try Ubuntu and/or install it!
 
-# Back up your data!
+## Back up your data!
 
 This should go without saying, but it's always worth repeating: back up your data!  The next step involves playing with partitions, which can be dangerous if you click the wrong buttons, so it's important to make sure that you have a copy of your data somewhere that's safe, preferably on a separate removable drive of some sort.
 
-# Resize/partition your secondary drive
+## Resize/partition your secondary drive
 
 Next, we'll need to make room for your brand new Ubuntu installation. We can do that by creating a new partition on your hard drive. It's important that you use Windows' partitioning tool instead of Ubuntu's partitioning tool. I rushed ahead with my installation and tried resizing an existing partition on my second disk using Ubuntu's partitioning tool. It took hours to complete, and changed the partition table such that the resized partition changed formats from NTFS (the Windows-style file system format) to Linux swap area. In other words, my data was lost. Luckily I had an old backup which had most of my data, but I did lose some of my newer data because I was too complacent to back up my data before the installation.
 
@@ -39,7 +39,7 @@ Once you have entered in the "amount of space to shrink in MB", you are ready to
 
 Once the partition has been successfully shrunk, you're ready to move on to the next step!
 
-# Adjust the boot order
+## Adjust the boot order
 
 Next, you'll want to change your boot order, so that your computer tries to boot from your USB drive before trying the hard disk. This step varies by machine, but is still very similar for all users.
 
