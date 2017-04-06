@@ -16,7 +16,7 @@ After that, I changed up the font from [Georgia Sans-Serif](http://en.wikipedia.
 I also added four projects I've done over the past year to the <a href="projects.php"> page:
  - <a href="projects.php?project=7">A Kinect-controlled Arduino car</a> (my favorite)
  - <a href="projects.php?project=8">A distributed task list</a>
- - <a href="projects.php?project=11">Morse code instant messaging</a> (Yes, it's just as crazy as it sounds
+ - <a href="projects.php?project=11">Morse code instant messaging</a> (Yes, it's just as crazy as it sounds)
  - <a href="projects.php?project=12">Parallel image segmentation</a>
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
