@@ -13,7 +13,7 @@ This series of posts will be consist of the following topics in the following po
 
 I'll update the last few bullet points with links to the posts in which they are discussed once the posts are written.
 
-# The machine
+## The machine
 
 For this project, I used my main laptop. It has the following relevant specs:
  - Intel Core i5 (Ivy Bridge) with integrated graphics
@@ -22,7 +22,7 @@ For this project, I used my main laptop. It has the following relevant specs:
  - 720GB Hard Drive
  - NVIDIA GT 630M discrete graphics card
 
-# Why might I want CUDA on Ubuntu instead of on Windows?
+## Why might I want CUDA on Ubuntu instead of on Windows?
 
 You probably don't need Ubuntu to make a parallel program using CUDA. CUDA is actually available for Windows, but its compiler driver (called "nvcc") uses Visual Studio's C++ compiler, cl, instead of g++ or gcc. If you own a Windows machine and want to make a brand new CUDA-based program from scratch, there's no need to install some Linux flavor; there's no major disadvantage or disadvantage to using cl instead of g++ (besides portability issues), and installing Ubuntu is honestly not worth the pain just to get a simple CUDA program up and running.
 
