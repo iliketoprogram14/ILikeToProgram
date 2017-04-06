@@ -10,6 +10,8 @@ It's April 2013, and there's still not a great experience at Harvard for a simpl
  - Go to the [official shuttle tracking website](http://shuttle.harvard.edu){:target="_blank"}, which will display a map with a bunch of routes and moving shuttles.
  - Go to [Shuttleboy](http://shuttleboy.cs50.net/){:target="_blank"}, which has an awesome interface but whose times were up until about a week or two ago, <b>wrong</b> for the 2012-2013 year.
  
+<!--more-->
+
 I think that the official shuttle tracking tool is awful because it does not give users the information they want quickly, and (sadly) Shuttleboy was not usable (until just recently) because the times were actually wrong (trust me, this app I made originally depended on the Shuttleboy API, but when I tried integrating it with the official tool's API, times were definitely off; it looks like they recently fixed them, as I just checked while writing this post haha). So, what should a good shuttle app do?  I think it should enable the following tasks:
 
  1. Find "trips", which I define as a trip from point A to point B.

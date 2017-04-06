@@ -7,6 +7,8 @@ tags: updates, music-player, isbn-scanner, school
 
 Wow it's been a while since I've posted. I guess I'll update you on what I've been doing over the past month.
 
+<!--more-->
+
 I made a ton of updates to the playlist shuffler, all little things that weren't very important or significant to its functionality or design. I've also been working a lot on Project Euler problems in C++; I believe I've finished around 15 selected problems, give or take.
 
 In late August, I started designing an ISBN scanner for my friend's home library. He wants a digital archive of all the books in his house, and I figured he could use a variant of my iPod Touch scanner application to generate this archive. I started implementing the server-side script in Python (and nearly finished too) before realizing that my free host only supports PHP, goddammit. I'll probably translate the script to PHP and begin the scanner app later on this week when I'm finished with my first round of problem sets. I'll be devoting a very small amount of time to this over the course of the semester, and it should be *completely* finished by Christmas.

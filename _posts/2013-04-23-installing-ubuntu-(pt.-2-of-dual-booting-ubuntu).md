@@ -7,6 +7,8 @@ tags: dual-boot, cuda
 
 This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series <a href="default.php?post=29">here</a>.
 
+<!--more-->
+
 ## Some thoughts
 
 The boot process for Windows 8 has changed quite a bit, as documented by [this post](http://neosmart.net/blog/2011/the-new-windows-8-bootloader/){:target="_blank"}. Although there are lots of guides out there for installing Ubuntu on a machine, there isn't a lot of info for some special cases for Windows 8. For example, there's lot of support out there if you want to install Ubuntu on your primary drive (eg, the C drive), but not very much for installing it on a secondary drive. Although this doesn't seem like a big deal, this is kind of bad considering the rise of SSDs and their falling prices; a quick google search about SSD sales brought up an [article from Forbes](http://www.forbes.com/sites/jasonevangelho/2013/04/21/crunching-the-numbers-should-you-buy-a-hybrid-ssd/){:target="_blank"} about considering a hybrid drive. Regardless, the big takeaway is that it's becoming more popular to have a small boot drive with a much larger drive or personal home server for documents and media, so it's not unheard of to want to install another OS on a secondary drive.
