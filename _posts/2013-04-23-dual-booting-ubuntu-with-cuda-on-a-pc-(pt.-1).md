@@ -7,6 +7,8 @@ tags: dual-boot, cuda
 
 Recently for my systems development class, I teamed up with another student to parallelize a decently sophisticated graph using [CUDA](http://www.nvidia.com/object/cuda_home_new.html){:target="_blank"}, a toolkit for GPU programming using an NVIDIA graphics card. Although it was a fun project, and we achieved pretty impressive result despite only working on it for 2 days, it was a <b>huge</b> pain to set up on my Windows 8 laptop. This is the first post of a series that serves as documentation for setting-up Ubuntu on a second (non-bootable) hard drive on a Windows 8 PC which has both integrated graphics and a discrete, NVIDIA graphics card.
 
+<!--more-->
+
 This series of posts will be consist of the following topics in the following posts: \r\n - The machine, and Why I might want CUDA on Ubuntu instead of on Windows?
  - Installing Ubuntu
  - Setting up CUDA on your new Ubuntu installation

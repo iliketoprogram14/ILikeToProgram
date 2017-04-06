@@ -7,6 +7,8 @@ tags: windows-phone
 
 I really enjoyed making my first Windows Phone app. I'm a fan of the ease of use of C#, and the plethora of libraries allow me to not worry about trivial things like parsing strings, which takes a lot of unnecessary pain at development time. Of course though, there's definitely some weird things with the Windows Phone SDK, just as there are with any other platform.
 
+<!--more-->
+
 One thing that was unnecessarily hard to figure out was altering the color of the default tiles. Developers can change the tile images by opening up the WMAppManifest.xml file and uploading images with transparent backgrounds. However, there's no option to change the color of the background of the tile templates, unlike Windows 8.
 
 Devs can get around this by right clicking on the file and clicking "View in code". You'll notice that there's a BackgroundColor property under your selected tile template (eg, &#060;TemplateIcon&#062;...&#060;BackgroundColor&#062;&#060;/BackgroundColor&#062;...&#060;/TemplateIconic&#062;). You can change the color by inserting an RGB value between the BackgroundColor tags.

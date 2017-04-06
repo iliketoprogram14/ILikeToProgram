@@ -11,6 +11,8 @@ First, iTunes Match "broke" <a href="projects.php?project=6">my custom music pla
 
 In other words, this became a great opportunity for me to build a parser myself. So, I added a few C# files that does the same thing in about 5-10 seconds for 24,000 songs, since I just an XML stream reader.
 
+<!--more-->
+
 iTunes Match also converted most of my music to the Apple Lossless format, and the audio API the Playlist Shuffler was using (IrrKlang) did not support .m4a files. So, I switched out the IrrKlang API for the [Bass.Net API](http://www.un4seen.com/){:target="_blank"}. It's not as straightforward as IrrKlang, but it supports more audio formats and seems to be more open to full customization. Either way, it now works, and that's all that really matters to me.
 
 Since I was working on it, I fixed a few bugs (a random number generator misbehaved, and converting pathnames from URL encoding to unicode). I also added a progress bar with a status label that's displayed when the iTunes library is being parsed. The source and updated documentation wll be posted later today.

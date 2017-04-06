@@ -1,6 +1,10 @@
-<ul id='navigation'>
-  <li><a href="/">Blog</a></li>
-  <li><a href="/archive.html">Archive</a></li>
-  <li><a href="/projects.html">Projects</a></li>
-  <li><a href="/about.html">About</a></li>
-</ul>
+<div id="header">
+  <h1 id="title"><a href="/">I like to program</a></h1>  
+  <ul id='navigation'>
+    <!--<li><a href="/">Blog</a></li>-->
+    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Blog</a></li>
+    <li><a href="/archive.html" {% if page.url contains "archive" %}class="active"{% endif %}>Archive</a></li>
+    <li><a href="/projects.html" {% if page.url contains "projects" %}class="active"{% endif %}>Projects</a></li>
+    <li><a href="/about.html" {% if page.url contains "about" %}class="active"{% endif %}>About</a></li>
+  </ul>
+</div>

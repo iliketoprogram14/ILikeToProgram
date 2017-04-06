@@ -7,6 +7,8 @@ tags: updates, school, plans
 
 Yep, school has started. I'm only taking 3 classes (out of the usual 4), but I'm doing a ton to keep myself busy, including research and holding office hours for Harvard's Systems class.
 
+<!--more-->
+
 I reinstalled Mac OS X to my laptop (which is a PC). It now dual boots OS X Lion, and I plan on reinstalling Ubuntu to another hard drive so I can mess with the kernel some more. I keep telling myself that I'll get around to making the ISBN scanner app, but things always keep coming up.
 
 I also rebound (re-binded?) my Meta key in Emacs to Alt. Turns out Growl, a notification service I use, decided to make Alt a global-notification-dismiss key, so I'm beyond happy that's working.
