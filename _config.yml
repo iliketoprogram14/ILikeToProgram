@@ -1,4 +1,5 @@
 # _config.yml
+excerpt_separator: <!--more-->
 paginate: 5
 gems:
   - jekyll-paginate
