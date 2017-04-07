@@ -5,7 +5,7 @@ permalink: about.html
 ---
 # About me and this site
 
-<img src="/assets/prof_pic150.jpg" class="profile-picture" width="150" align="right">
+<img src="/assets/images/prof_pic150.jpg" id="profile-picture" width="150" align="right">
 
 Hi! My name is Randy Miller. This site contains a lot of my work in and outside of college, most of which can be downloaded. Hopefully this site will help others if they're working on similar projects or those who just want to read more code.
 

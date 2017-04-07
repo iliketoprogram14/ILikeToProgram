@@ -1,0 +1,139 @@
+---
+---
+/* 
+    Document   : style
+    Created on : Apr 6, 2017
+    Author     : Randy
+*/
+
+$width: 95%;
+$max-width: 900px;
+$normal_font_size: 13px;
+$larger_font_size: 16px;
+
+$darkgray: #444;
+$lightgray: #aaa;
+
+$link: $darkgray;
+$link_hover: $lightgray;
+$altlink: black;
+$link3: $lightgray;
+$link3_hover: black;
+
+body {
+    background-color: white;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: "Segoe UI", sans-serif;
+    font-size: $normal_font_size;
+    color: black;
+}
+
+a { color: $link; }
+a:hover, a:focus { color: $link_hover; }
+
+h1 { font-size: 26px; }
+
+#header {
+    width: $width; max-width: $max-width; margin: auto; position: relative;
+    overflow: hidden; height: 90px;
+
+    h1#title {
+        float: left;
+        margin: auto;
+        font-size: 44px;
+        a {
+            text-decoration: none;
+            color: royalblue; /* turquoise teal springgreen steelblue seagreen royalblue purple midnightblue maroon lightseagreen dodgerblue;*/
+        }
+    }
+
+    ul {
+        clear: both;
+        list-style: none;
+        padding: 0;
+        li {
+            float: left;
+            position: relative;
+            margin: 0 0 0 30px; 
+            letter-spacing: 2px;
+            font-size: 16px;
+            a {
+                color: $link3;
+                text-decoration: none;
+                margin: 0;
+            }
+            a.active { color: $altlink }
+            a:hover, a:focus { color: $link3_hover; }            
+        }
+        li:first-child { margin: 0; }              
+    }
+}
+
+#content {
+    width: $width;
+    max-width: $max-width; 
+    margin: 0 auto 0 auto;
+    padding: 0 22px 0 22px;
+    font-size: $larger_font_size;
+    ul { list-style: none; padding-left: 15px; }
+    p {
+        color: $darkgray; 
+        margin: 0 0 15px 0;
+    }
+    .post {
+        position: relative;
+        margin: 0;
+        padding: 0 0 10px 0;
+        overflow: hidden;
+        h1 a {
+            text-decoration: none;
+            color: $altlink;
+        }
+        h2 {
+            float: left; margin: 10px 0 50px 80px; color: $darkgray;
+            font-size: 24px; font-weight: normal;
+            letter-spacing: normal; display: block; overflow: hidden;
+            clear: all;
+        }
+        ul { list-style: disc; padding-left: 25px; }
+        .post-content {
+            font-size: $normal_font_size;
+            clear:both; list-style-position: inside;
+            line-height: 1.75; text-align: justify;
+            ol {
+                margin: 2 15px 0 15px;
+            }
+            h2 {
+                float: none; margin: 0px;
+                font-size: 22px; font-weight: normal;
+                letter-spacing: normal; display: block; overflow: hidden;
+                clear: all;
+            }
+        }
+        img { display:block; margin: auto; }
+    }
+
+    a#next {
+        text-decoration: none; float: left;
+    }
+    a#prev {
+        @extend a#next; margin-right: 20px;
+    }
+
+    img#profile-picture { padding-left: 20px; }
+
+    #tag-index .tag-collection { display: none; }
+}
+#content:after {
+    content: "";
+    display: block;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+#footer {
+    width: $width; max-width: $max-width; clear: both; color: $darkgray;
+    text-align: right; position: relative; overflow: hidden;
+    margin: 0 auto; padding-bottom: 28px;
+}

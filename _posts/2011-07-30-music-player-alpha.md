@@ -2,7 +2,7 @@
 layout: post
 title: Music Player Alpha
 date: 2011-07-30
-tags: updates, music-player
+tags: [updates, music-player]
 ---
 
 Alright, the <a href="projects.php?project=6">first playlist shuffler release I planned for</a> is up. In addition to adding playlist support, I tweaked the xml for playlist use, which is generated from reading the results of the [iTunes importer](http://www.ericdaugherty.com/dev/itunesexport/){:target="_blank"}. I also added an installer and a sort of messy set up wizard that grabs the iTunes playlists.

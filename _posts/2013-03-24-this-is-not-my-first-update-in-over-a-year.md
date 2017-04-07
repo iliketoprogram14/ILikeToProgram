@@ -2,7 +2,7 @@
 layout: post
 title: This is not my first update in over a year...
 date: 2013-03-24
-tags: website, plans, school
+tags: [website, plans, school]
 ---
 
 So I finally sucked it up and purchased permanent hosting for this site a few months ago. The free hosting I was using would completely drop my site every other month if it didn't get at least a certain number of views; this meant that every few months I would have to FTP my entire site plus a backup of the database back to the host. Of course, I totally forgot to make backups/make a script to back up my database, so I lost around 5 posts from over the summer :(

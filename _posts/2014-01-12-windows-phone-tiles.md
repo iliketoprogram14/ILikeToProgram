@@ -2,7 +2,7 @@
 layout: post
 title: Windows Phone Tiles
 date: 2014-01-12
-tags: windows-phone
+tags: [windows-phone]
 ---
 
 I really enjoyed making my first Windows Phone app. I'm a fan of the ease of use of C#, and the plethora of libraries allow me to not worry about trivial things like parsing strings, which takes a lot of unnecessary pain at development time. Of course though, there's definitely some weird things with the Windows Phone SDK, just as there are with any other platform.
