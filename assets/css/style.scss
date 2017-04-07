@@ -9,10 +9,11 @@
 $width: 95%;
 $max-width: 900px;
 $normal_font_size: 13px;
-$larger_font_size: 16px;
+$large_font_size: 15px;
 
 $darkgray: #444;
 $lightgray: #aaa;
+$accent: royalblue; /* turquoise teal springgreen steelblue seagreen royalblue purple midnightblue maroon lightseagreen dodgerblue;*/
 
 $link: $darkgray;
 $link_hover: $lightgray;
@@ -44,7 +45,7 @@ h1 { font-size: 26px; }
         font-size: 44px;
         a {
             text-decoration: none;
-            color: royalblue; /* turquoise teal springgreen steelblue seagreen royalblue purple midnightblue maroon lightseagreen dodgerblue;*/
+            color: $accent; 
         }
     }
 
@@ -75,8 +76,9 @@ h1 { font-size: 26px; }
     max-width: $max-width; 
     margin: 0 auto 0 auto;
     padding: 0 22px 0 22px;
-    font-size: $larger_font_size;
-    ul { list-style: none; padding-left: 15px; }
+    font-size: $large_font_size;
+    ol { padding-left: 15px; color: $darkgray; }
+    ul { @extend ol; list-style: none;  }
     p {
         color: $darkgray; 
         margin: 0 0 15px 0;
@@ -86,9 +88,14 @@ h1 { font-size: 26px; }
         margin: 0;
         padding: 0 0 10px 0;
         overflow: hidden;
-        h1 a {
-            text-decoration: none;
-            color: $altlink;
+        font-size: $normal_font_size;
+        .post-header {
+            padding-bottom: 15px;
+            h1.post-title { padding-bottom: 0; margin-bottom: 0; }
+            h1 a {
+                text-decoration: none;
+                color: $altlink;
+            }
         }
         h2 {
             float: left; margin: 10px 0 50px 80px; color: $darkgray;
@@ -100,7 +107,7 @@ h1 { font-size: 26px; }
         .post-content {
             font-size: $normal_font_size;
             clear:both; list-style-position: inside;
-            line-height: 1.75; text-align: justify;
+            line-height: 1.25; text-align: justify;
             ol {
                 margin: 2 15px 0 15px;
             }
@@ -115,15 +122,18 @@ h1 { font-size: 26px; }
     }
 
     a#next {
-        text-decoration: none; float: left;
+        text-decoration: none; float: left; font-size: 16px; padding-right:20px; padding-top: 20px;
     }
     a#prev {
-        @extend a#next; margin-right: 20px;
+        @extend a#next;
     }
 
     img#profile-picture { padding-left: 20px; }
 
     #tag-index .tag-collection { display: none; }
+
+    p#tag-list { font-size: $normal_font_size; }
+    p#tag-list a.tag-link { color: $accent; padding-left: 5px; }
 }
 #content:after {
     content: "";
