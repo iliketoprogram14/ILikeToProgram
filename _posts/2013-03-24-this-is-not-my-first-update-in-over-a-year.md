@@ -15,11 +15,11 @@ I took a couple days over spring break (which I'm currently at the end of) to up
 
 After that, I changed up the font from [Georgia Sans-Serif](http://en.wikipedia.org/wiki/Georgia_(typeface)){:target="_blank"} to Segoe UI, which you should be able to see now if you're on a relatively modern computer. Doing that and adding some spacing between lines made the page a lot cleaner and more readable, and the site doesn't look *that* bad anymore. I still need to fix the color scheme though :P
 
-I also added four projects I've done over the past year to the <a href="projects.php"> page:
- - <a href="projects.php?project=7">A Kinect-controlled Arduino car</a> (my favorite)
- - <a href="projects.php?project=8">A distributed task list</a>
- - <a href="projects.php?project=11">Morse code instant messaging</a> (Yes, it's just as crazy as it sounds)
- - <a href="projects.php?project=12">Parallel image segmentation</a>
+I also added four projects I've done over the past year to the <a href="/projects.html"> page:
+ - <a href="{{ site.data.projects['kinectarduinocar'].url }}">A Kinect-controlled Arduino car</a> (my favorite)
+ - <a href="{{ site.data.projects['distributedtasklist'].url }}">A distributed task list</a>
+ - <a href="{{ site.data.projects['morsecodeim'].url }}">Morse code instant messaging</a> (Yes, it's just as crazy as it sounds)
+ - <a href="{{ site.data.projects['parallelimage'].url }}">Parallel image segmentation</a>
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
 
