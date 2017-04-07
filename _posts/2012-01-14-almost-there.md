@@ -2,7 +2,7 @@
 layout: post
 title: Almost there...
 date: 2012-01-14
-tags: updates, website
+tags: [updates, website]
 ---
 
 I've almost finished with the new design. Right now the Projects page is almost done; the only thing missing right now is making programming language links active such that they lead to a list of projects.

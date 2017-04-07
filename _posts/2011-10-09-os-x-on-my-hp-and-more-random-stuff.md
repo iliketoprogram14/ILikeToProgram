@@ -2,7 +2,7 @@
 layout: post
 title: OS X - on my hp... and more random stuff
 date: 2011-10-09
-tags: updates, school, plans
+tags: [updates, school, plans]
 ---
 
 Yep, school has started. I'm only taking 3 classes (out of the usual 4), but I'm doing a ton to keep myself busy, including research and holding office hours for Harvard's Systems class.
