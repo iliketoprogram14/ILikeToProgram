@@ -1,0 +1,40 @@
+99problems:
+  title: 99 Problems
+  url: http://google.com
+  language: Ocaml and Python
+bithacks:
+  title: Bit Twiddling Hacks
+  url: http://google.com
+  language: C
+tictactoe:
+  title: Tic Tac Toe
+  url: http://google.com
+  language: Java
+playlistshuffler:
+  title: Playlist Shuffler
+  url: http://google.com
+  language: C#
+kinectarduinocar:
+  title: Kinect Arduino Car
+  url: https://www.youtube.com/watch?v=4v98L51F9Vw
+  language: C#
+distributedtasklist:
+  title: Distributed Task List
+  url: http://google.com
+  language: Java and Python
+morsecodeim:
+  title: Morse Code IM
+  url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
+  language: Verilog
+parallelimage:
+  title: Parallel Image Segmentation
+  url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
+  language: Python/CUDA
+harvardshuttle:
+  title: Harvard Shuttle
+  url: http://google.com
+  language: C#
+YNABcompanion:
+  title: YNAB Companion
+  url: http://google.com
+  language: C#
