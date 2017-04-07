@@ -15,13 +15,15 @@ Devs can get around this by right clicking on the file and clicking "View in cod
 
 Here's the catch though: there must be no whitespace between the tags and the value. For example, the following xml <b>doesn't</b> work.
 
-<code>&#060;BackgroundColor&#062;
-<span style="margin-left: 15px">#4477aa</span>
-&#060;/BackgroundColor&#062;</code>
+{% highlight xml %}
+<BackgroundColor> #4477aa </BackgroundColor>
+{% endhighlight %}
 
 But the following does:
 
-<code>&#060;BackgroundColor&#062;#4477aa&#060;/BackgroundColor&#062;</code>
+{% highlight xml %}
+<BackgroundColor>#4477aa</BackgroundColor>
+{% endhighlight %}
 
 This took me way too long to figure out. It's not documented anywhere official (as far as I know), and googling around didn't really turn up anything immediately. I wonder if this is why so many apps use the theme color instead of choosing their own.
 
