@@ -66,12 +66,16 @@ pre {
         li {
             float: left;
             position: relative;
-            /* Assume that the min width is 320px, aka iPhone 3-5 */
             @media only screen and (min-width: 360px) {
                 margin: 0 0 0 2em; 
             }
-            @media only screen and (max-width: 360px) {
+            /* Min width for phones is 320px, aka iPhone 3-5 */
+            @media only screen and (max-width: 359px) {
                 margin: 0 0 0 0.75em;
+            }
+            /* Min width for watches is 280px */
+            @media only screen and (max-width: 305px) {
+                margin: 0 0 0 0.5em;
             }
             letter-spacing: 2px;
             font-size: 1.25em;
