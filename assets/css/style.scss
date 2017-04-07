@@ -11,7 +11,6 @@ $max-width: 900px;
 $center_margin: 0 auto;
 
 $normal_font_size: 13px;
-$large_font_size: 15px;
 
 $darkgray: #444;
 $lightgray: #aaa;
@@ -29,23 +28,31 @@ body {
     background-attachment: fixed;
     font-family: "Segoe UI", sans-serif;
     font-size: $normal_font_size;
-    color: black;
+    color: $darkgray;
     margin: 0;
 }
 
 a { color: $link; }
 a:hover, a:focus { color: $link_hover; }
-
-h1 { font-size: 2em; }
+li { padding-bottom: 0.5em; }
+pre {
+    text-align: left;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
 
 #header {
-    width: $width; max-width: $max-width; position: relative;
-    overflow: hidden; min-height: 90px; max-height: 180px;
+    width: $width; max-width: $max-width;
+    min-height: 90px; max-height: 180px;    
+    position: relative;  overflow: hidden;
     margin: $center_margin;
 
     h1#title {
         float: left;
-        font-size: 3.08em;
+        font-size: 3.25em;
         margin: $center_margin;
         a {
             text-decoration: none;
@@ -59,13 +66,18 @@ h1 { font-size: 2em; }
         li {
             float: left;
             position: relative;
-            margin: 0 0 0 28px; 
+            /* Assume that the min width is 320px, aka iPhone 3-5 */
+            @media only screen and (min-width: 360px) {
+                margin: 0 0 0 2em; 
+            }
+            @media only screen and (max-width: 360px) {
+                margin: 0 0 0 0.75em;
+            }
             letter-spacing: 2px;
-            font-size: 16px;
+            font-size: 1.25em;
             a {
                 color: $link3;
                 text-decoration: none;
-                margin: 0;
             }
             a.active { color: $altlink }
             a:hover, a:focus { color: $link3_hover; }            
@@ -78,76 +90,63 @@ h1 { font-size: 2em; }
     width: $width;
     max-width: $max-width;
     margin: $center_margin;
+    font-size: $normal_font_size;
     ol { padding-left: 1em; color: $darkgray; }
     ul { @extend ol; list-style: none;  }
-    p {
-        color: $darkgray; 
-        margin: 0 0 1em 0;
-    }
     .post {
         position: relative;
         margin: 0;
-        padding: 0 0 10px 0;
+        padding: 0 0 0.5em 0;
         overflow: hidden;
-        font-size: $normal_font_size;
         .post-header {
-            padding-bottom: 15px;
+            color: black;
             h1.post-title { padding-bottom: 0; margin-bottom: 0; }
-            h1 a {
-                text-decoration: none;
-                color: $altlink;
-            }
+            h1 a { text-decoration: none; color: $altlink; }
         }
-        ul { list-style: disc; padding-left: 25px; }
+        ol { 
+            padding-left: 2em;
+            li { padding-bottom: 0em; }
+        }
+        ul { @extend ol; list-style: disc; }
         .post-content {
             font-size: $normal_font_size;
             clear:both; list-style-position: inside;
             line-height: 1.25; text-align: justify;
-            ol {
-                margin: 2 15px 0 15px;
-            }
             h2 {
-                float: none; margin: 0px;
-                /*font-size: 22px;*/ font-weight: normal;
-                letter-spacing: normal; display: block; overflow: hidden;
+                float: none;
+                margin: 0;
+                padding-bottom: 0.25em;
+                font-weight: normal;
+                overflow: hidden;
                 clear: all;
             }
         }
         img { display:block; margin: auto; }
     }
 
-    a#next {
-        text-decoration: none; float: left; font-size: 16px; padding-right:20px; padding-top: 20px;
-    }
-    a#prev {
-        @extend a#next;
+    a#next, a#prev {
+        text-decoration: none;
+        float: left;
+        padding-right: 1.5em;
+        padding-top: 1.5em;
+        color: $accent;
     }
 
-    img#profile-picture { padding-left: 20px; }
+    img#profile-picture { padding-left: 1.5em; }
 
     #tag-index .tag-collection { display: none; }
 
     p#tag-list { font-size: $normal_font_size; }
-    p#tag-list a.tag-link { color: $accent; padding-left: 5px; }
+    p#tag-list a.tag-link { color: $accent; padding-left: 0.5em; }
 }
 #content:after {
     content: "";
     display: block;
     clear: both;
-    padding-bottom: 30px;
 }
 
 #footer {
     width: $width; max-width: $max-width; clear: both; color: $darkgray;
     text-align: right; position: relative; overflow: hidden;
-    margin: 0; padding-bottom: 1em;
-}
-
-pre {
-    text-align: left;
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin: $center_margin; padding-bottom: 1em;
 }
