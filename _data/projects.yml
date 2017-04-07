@@ -38,3 +38,7 @@ YNABcompanion:
   title: YNAB Companion
   url: http://google.com
   language: C#
+iospos:
+  title: iOS Mobile Point of Sales System
+  url: http://google.com
+  language: Objective C
