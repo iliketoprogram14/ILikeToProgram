@@ -2,7 +2,7 @@
 layout: post
 title: Wins, school, and more projects
 date: 2011-09-06
-tags: updates, music-player, isbn-scanner, school
+tags: [updates, music-player, isbn-scanner, school]
 ---
 
 Wow it's been a while since I've posted. I guess I'll update you on what I've been doing over the past month.

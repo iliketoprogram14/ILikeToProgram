@@ -2,7 +2,7 @@
 layout: post
 title: Found huge memory leak in Harvard Shuttle
 date: 2013-04-22
-tags: shuttle
+tags: [shuttle]
 ---
 
 So it turned out there was a <b>huge</b> memory leak in the <a href="http://bit.ly/11ugIYE">Harvard Shuttle app I just released</a>. I was doing a pretty good job of cleaning up my data structures, even though there was really no need to in a managed language like C#. But lo and behold, when I opened up Task Manager to kill something, I saw that my app took up over 500MB of RAM (!!!). Either way, I definitely should've ran a memory profile on the app before sending it out.

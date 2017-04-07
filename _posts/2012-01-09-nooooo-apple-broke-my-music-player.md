@@ -2,7 +2,7 @@
 layout: post
 title: Nooooo!!! Apple broke my music player!!!
 date: 2012-01-09
-tags: updates, music-player, isbn-scanner, school
+tags: [updates, music-player, isbn-scanner, school]
 ---
 
 Now that I finally have some free time, I've been working on a couple of projects.

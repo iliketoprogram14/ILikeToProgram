@@ -2,7 +2,7 @@
 layout: post
 title: Tic Tac Toe - as an applet???
 date: 2011-06-23
-tags: updates, tic-tac-toe
+tags: [updates, tic-tac-toe]
 ---
 
 After figuring out applets and GUIs out a few nights ago, I've finally managed to get a working applet ready :)

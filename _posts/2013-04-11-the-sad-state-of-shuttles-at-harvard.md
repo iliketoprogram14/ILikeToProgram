@@ -2,7 +2,7 @@
 layout: post
 title: The sad state of shuttles at Harvard
 date: 2013-04-11
-tags: harvard, fails, shuttle
+tags: [harvard, fails, shuttle]
 ---
 
 It's April 2013, and there's still not a great experience at Harvard for a simple task: finding a shuttle time that's relevant to you. As far as I know, students on a laptop/desktop computer can find a shuttle time via one of the following ways:

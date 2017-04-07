@@ -2,7 +2,7 @@
 layout: post
 title: Installing Ubuntu (Pt. 2 of dual booting Ubuntu)
 date: 2013-04-23
-tags: dual-boot, cuda
+tags: [dual-boot, cuda]
 ---
 
 This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series <a href="default.php?post=29">here</a>.
