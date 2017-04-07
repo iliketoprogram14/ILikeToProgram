@@ -8,6 +8,8 @@
 
 $width: 95%;
 $max-width: 900px;
+$center_margin: 0 auto;
+
 $normal_font_size: 13px;
 $large_font_size: 15px;
 
@@ -28,22 +30,23 @@ body {
     font-family: "Segoe UI", sans-serif;
     font-size: $normal_font_size;
     color: black;
-    margin-right: 15px;
+    margin: 0;
 }
 
 a { color: $link; }
 a:hover, a:focus { color: $link_hover; }
 
-h1 { font-size: 26px; }
+h1 { font-size: 2em; }
 
 #header {
-    width: $width; max-width: $max-width; margin: auto; position: relative;
-    overflow: hidden; height: 90px;
+    width: $width; max-width: $max-width; position: relative;
+    overflow: hidden; min-height: 90px; max-height: 180px;
+    margin: $center_margin;
 
     h1#title {
         float: left;
-        margin: auto;
-        font-size: 40px;
+        font-size: 3.08em;
+        margin: $center_margin;
         a {
             text-decoration: none;
             color: $accent; 
@@ -73,15 +76,13 @@ h1 { font-size: 26px; }
 
 #content {
     width: $width;
-    max-width: $max-width; 
-    margin: auto;
-    padding: 0 22px 0 15px;
-    font-size: $large_font_size;
-    ol { padding-left: 15px; color: $darkgray; }
+    max-width: $max-width;
+    margin: $center_margin;
+    ol { padding-left: 1em; color: $darkgray; }
     ul { @extend ol; list-style: none;  }
     p {
         color: $darkgray; 
-        margin: 0 0 15px 0;
+        margin: 0 0 1em 0;
     }
     .post {
         position: relative;
@@ -97,12 +98,6 @@ h1 { font-size: 26px; }
                 color: $altlink;
             }
         }
-        h2 {
-            float: left; margin: 10px 0 50px 80px; color: $darkgray;
-            font-size: 24px; font-weight: normal;
-            letter-spacing: normal; display: block; overflow: hidden;
-            clear: all;
-        }
         ul { list-style: disc; padding-left: 25px; }
         .post-content {
             font-size: $normal_font_size;
@@ -113,7 +108,7 @@ h1 { font-size: 26px; }
             }
             h2 {
                 float: none; margin: 0px;
-                font-size: 22px; font-weight: normal;
+                /*font-size: 22px;*/ font-weight: normal;
                 letter-spacing: normal; display: block; overflow: hidden;
                 clear: all;
             }
@@ -145,5 +140,14 @@ h1 { font-size: 26px; }
 #footer {
     width: $width; max-width: $max-width; clear: both; color: $darkgray;
     text-align: right; position: relative; overflow: hidden;
-    margin: 0; padding-bottom: 28px;
+    margin: 0; padding-bottom: 1em;
+}
+
+pre {
+    text-align: left;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
