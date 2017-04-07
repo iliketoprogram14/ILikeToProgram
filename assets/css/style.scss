@@ -13,7 +13,7 @@ $large_font_size: 15px;
 
 $darkgray: #444;
 $lightgray: #aaa;
-$accent: royalblue; /* turquoise teal springgreen steelblue seagreen royalblue purple midnightblue maroon lightseagreen dodgerblue;*/
+$accent: dodgerblue;
 
 $link: $darkgray;
 $link_hover: $lightgray;
@@ -28,6 +28,7 @@ body {
     font-family: "Segoe UI", sans-serif;
     font-size: $normal_font_size;
     color: black;
+    margin-right: 15px;
 }
 
 a { color: $link; }
@@ -42,13 +43,12 @@ h1 { font-size: 26px; }
     h1#title {
         float: left;
         margin: auto;
-        font-size: 44px;
+        font-size: 40px;
         a {
             text-decoration: none;
             color: $accent; 
         }
     }
-
     ul {
         clear: both;
         list-style: none;
@@ -56,7 +56,7 @@ h1 { font-size: 26px; }
         li {
             float: left;
             position: relative;
-            margin: 0 0 0 30px; 
+            margin: 0 0 0 28px; 
             letter-spacing: 2px;
             font-size: 16px;
             a {
@@ -74,8 +74,8 @@ h1 { font-size: 26px; }
 #content {
     width: $width;
     max-width: $max-width; 
-    margin: 0 auto 0 auto;
-    padding: 0 22px 0 22px;
+    margin: auto;
+    padding: 0 22px 0 15px;
     font-size: $large_font_size;
     ol { padding-left: 15px; color: $darkgray; }
     ul { @extend ol; list-style: none;  }
@@ -145,5 +145,5 @@ h1 { font-size: 26px; }
 #footer {
     width: $width; max-width: $max-width; clear: both; color: $darkgray;
     text-align: right; position: relative; overflow: hidden;
-    margin: 0 auto; padding-bottom: 28px;
+    margin: 0; padding-bottom: 28px;
 }
