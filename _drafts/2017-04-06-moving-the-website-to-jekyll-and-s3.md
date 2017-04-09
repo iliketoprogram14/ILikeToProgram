@@ -42,7 +42,7 @@ tags: updates website
 
 # Test setup
  - From working directory, run "jekyll build"
- - [Install Apache for Ubuntu](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment)
+ <!--- [Install Apache for Ubuntu](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment)-->
  - Update DocumentRoot in /etc/apache2/sites-available/000-default.conf to point to the _sites subdirectory in your working directory
  - Navigate to localhost in your favorite browser
 

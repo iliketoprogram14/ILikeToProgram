@@ -53,4 +53,4 @@ I don't know if my app looks all that great, but I do feel pretty confident that
 
 I plan on releasing my JSON "database" (if you will) of the shuttle schedule before I graduate, so that others can make use of it for their own apps for other platforms. It's technically usable right now, but I want to spend a lot more time cleaning up the parser and the scraper.
 
-Anyway, I hope you find my app useful, and if you have any feedback about anything or have any questions, please <a href="about.php">contact me</a>.
+Anyway, I hope you find my app useful, and if you have any feedback about anything or have any questions, please <a href="/about.html">contact me</a>.
