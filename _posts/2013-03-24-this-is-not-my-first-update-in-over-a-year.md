@@ -9,7 +9,7 @@ So I finally sucked it up and purchased permanent hosting for this site a few mo
 
 <!--more-->
 
-A lot has happened in the past year, and I've updated the <a href="about.php">about section</a> accordingly. I interned at Microsoft with the Windows team over the summer, and I accepted an offer to come back this coming fall. I'm seriously geeked at the prospect of working on the Windows kernel. In the mean time, I've taken a lot more CS courses (7 courses, plus the ones I teach), and I feel like I'm a slightly better programmer compared to the guy who made the last post on this website :P
+A lot has happened in the past year, and I've updated the <a href="/about.html">about section</a> accordingly. I interned at Microsoft with the Windows team over the summer, and I accepted an offer to come back this coming fall. I'm seriously geeked at the prospect of working on the Windows kernel. In the mean time, I've taken a lot more CS courses (7 courses, plus the ones I teach), and I feel like I'm a slightly better programmer compared to the guy who made the last post on this website :P
 
 I took a couple days over spring break (which I'm currently at the end of) to update this site quite a bit. First, a friend of mine pointed out that I had a SQL injection vulnerability since I wasn't escaping anything but strings (!). I had completely ignored security when building my website initially, and I totally forgot to come back to it by now. I patched things up, rewrote and refactored a lot of the back end (which I use for uploading posts/projects), and spruced up the readability of the code quite a bit.
 
