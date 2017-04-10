@@ -31,6 +31,7 @@ tags: updates website
  - Create a bare website following [this guide](http://docs.aws.amazon.com/AmazonS3/latest/dev/HostingWebsiteOnS3Setup.html)
  - Download the amazon AWS cli
    + sudo apt-get install awscli
+ - gem install s3_website - [link](https://github.com/laurilehmijoki/s3_website)
 
 # Local setup
  - [RTFM](https://jekyllrb.com/docs/home/)
