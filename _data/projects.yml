@@ -12,7 +12,7 @@ tictactoe:
   language: Java
 playlistshuffler:
   title: Playlist Shuffler
-  url: https://github.com/iliketoprogram14/MusicPlayerWindows
+  url: https://github.com/iliketoprogram14/MusicPlayerWindow
   language: C#
 kinectarduinocar:
   title: Kinect Arduino Car

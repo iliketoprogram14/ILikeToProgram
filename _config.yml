@@ -5,4 +5,5 @@ exclude: ["*.sh", "README.md"]
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-tidy
   

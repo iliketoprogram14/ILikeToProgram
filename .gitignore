@@ -1,2 +1,3 @@
 _site/
 *.sh
+s3_website.yml
