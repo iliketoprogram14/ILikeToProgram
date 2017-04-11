@@ -3,7 +3,20 @@ layout: default
 title: Archive
 permalink: archive.html
 ---
-
+<div id="search">
+  <script>
+    (function() {
+      var cx = '017375656702497954888:cje4hxn8hti';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
 {% assign last_year = "" %}
 <div id="archive">
 {% for post in site.posts %}
