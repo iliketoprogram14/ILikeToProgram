@@ -47,14 +47,10 @@ tags: updates website
  - Create index.html
 
 # Test setup
- - From working directory, run "jekyll build"
+ - From working directory, run "jekyll build" to create your site
  <!--- [Install Apache for Ubuntu](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment)-->
- - Update DocumentRoot in /etc/apache2/sites-available/000-default.conf to point to the _sites subdirectory in your working directory
- - Navigate to localhost in your favorite browser
-
-# Test loop
- - Run jekyll build (--incremental flag?) and refresh localhost
- - Alternatively, run jekyll build --watch once, then subsequently only refresh localhost whenever you make changes
+ - Run "jekyll serve" to build and run a server
+ - Navigate to localhost:4000 in your favorite browser
 
 # Deployment setup
  - Option 1
