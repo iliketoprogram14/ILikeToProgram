@@ -7,7 +7,7 @@ tags: [updates, music-player, isbn-scanner, school]
 
 Now that I finally have some free time, I've been working on a couple of projects.
 
-First, iTunes Match "broke" <a href="{{ site.data.projects['playlistshuffler'].url }}">my custom music player</a>, in a number of ways that weren't really my fault. I was using someone else's program to extract iTunes playlists from the iTunes Library xml file, and it was no longer working for some reason. On top of that, it always used tons of memory (it loaded all the songs into a large array), and took up to 10 minutes for 20,000+ songs.
+First, iTunes Match "broke" [my custom music player]({{ site.data.projects['playlistshuffler'].url }}), in a number of ways that weren't really my fault. I was using someone else's program to extract iTunes playlists from the iTunes Library xml file, and it was no longer working for some reason. On top of that, it always used tons of memory (it loaded all the songs into a large array), and took up to 10 minutes for 20,000+ songs.
 
 In other words, this became a great opportunity for me to build a parser myself. So, I added a few C# files that does the same thing in about 5-10 seconds for 24,000 songs, since I just an XML stream reader.
 
