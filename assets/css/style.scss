@@ -35,8 +35,10 @@ body {
     margin: $center_margin;
 }
 
-a { color: $link; }
-a:hover, a:focus { color: $link_hover; }
+a {
+    color: $link;
+    &:hover, &:focus { color: $link_hover; }
+}
 li { padding-bottom: 0.5em; }
 
 #header {
@@ -59,27 +61,21 @@ li { padding-bottom: 0.5em; }
         li {
             float: left;
             position: relative;
-            @media only screen and (min-width: 360px) {
-                margin: 0 0 0 2em; 
-            }
-            /* Min width for phones is 320px, aka iPhone 3-5 */
-            @media only screen and (max-width: 359px) {
-                margin: 0 0 0 0.75em;
-            }
-            /* Min width for watches is 280px */
-            @media only screen and (max-width: 305px) {
-                margin: 0 0 0 0.5em;
-            }
             letter-spacing: 2px;
             font-size: 1.25em;
+            @media only screen {
+                @media (min-width: 360px) { margin: 0 0 0 2em; }
+                @media (max-width: 359px) { margin: 0 0 0 0.75em; } /* iPhone 5, etc */
+                @media (max-width: 305px) { margin: 0 0 0 0.5em; }  /* Smart watches */
+            }
             a {
                 color: $link3;
                 text-decoration: none;
+                &.active { color: $altlink; }
+                &:hover, &:focus { color: $link3_hover; }
             }
-            a.active { color: $altlink }
-            a:hover, a:focus { color: $link3_hover; }            
+            &:first-child { margin: 0; }
         }
-        li:first-child { margin: 0; }              
     }
 }
 
@@ -106,8 +102,10 @@ li { padding-bottom: 0.5em; }
         overflow: hidden;
         .post-header {
             color: black;
-            h1.post-title { padding-bottom: 0; margin-bottom: 0; }
-            h1 a { text-decoration: none; color: $altlink; }
+            h1 {
+                &.post-title { padding-bottom: 0; margin-bottom: 0; }
+                a { text-decoration: none; color: $altlink; }
+             }
         }
         ol { 
             padding-left: 2em;
@@ -144,17 +142,17 @@ li { padding-bottom: 0.5em; }
 
     p#tag-list { font-size: $normal_font_size; }
     p#tag-list a.tag-link { color: $accent; padding-left: 0.5em; }
-}
-#content:after {
-    content: "";
-    display: block;
-    clear: both;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 }
 
 #footer {
-    clear: both; color: $darkgray;
+    clear: both; color: $darkgray; padding-bottom: 1em;
     text-align: right; position: relative; overflow: hidden;
-    padding-bottom: 1em;
 }
 
 @import "syntax";
