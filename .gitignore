@@ -1,3 +1,4 @@
 _site/
 *.sh
 s3_website.yml
+.sass-cache/
