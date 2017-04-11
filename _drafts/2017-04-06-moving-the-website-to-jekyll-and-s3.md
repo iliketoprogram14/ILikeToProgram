@@ -32,6 +32,11 @@ tags: updates website
  - Download the amazon AWS cli
    + sudo apt-get install awscli
  - gem install s3_website - [link](https://github.com/laurilehmijoki/s3_website)
+ - Route 53 hosted zone
+ - Optional
+   + Route 53 domain
+   + Cloudfront CDN (gzip, caching)
+   + SSL with Cloudfront
 
 # Local setup
  - [RTFM](https://jekyllrb.com/docs/home/)
@@ -52,12 +57,12 @@ tags: updates website
  - Alternatively, run jekyll build --watch once, then subsequently only refresh localhost whenever you make changes
 
 # Deployment setup
- - Set up aws cli
- - aws sync _site/ s3://<bucket>
-
-# Deployment loop
- - aws sync _site/ s3://<bucket>
- - Can just add as a post hook to git push or whatever 
+ - Option 1
+   + Set up aws cli
+   + aws sync _site/ s3://<bucket>
+ - Option 2
+   + Set up s3_website
+   + s3_website push
 
 # Writing posts
  - I use the _drafts folder
