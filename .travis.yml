@@ -2,7 +2,7 @@ language: ruby
 rvm:
  - 2.4.1
 install: gem install jekyll jekyll-paginate jekyll-sitemap jekyll-tidy html-proofer
-script: jekyll build && htmlproofer --url-ignore "/www.linkedin.com/*/","forbes.com/*" ./_site
+script: jekyll build && htmlproofer --url-ignore "/www.linkedin.com/*/","/www.forbes.com/*/" ./_site
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
