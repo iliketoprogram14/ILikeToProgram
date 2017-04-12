@@ -5,7 +5,7 @@ date: 2011-08-03
 tags: [updates, music-player]
 ---
 
-I used [Sandcastle]("http://sandcastle.codeplex.com"){"target="blank"} to generate documentation for my C# playlist shuffler.
+I used [Sandcastle](http://sandcastle.codeplex.com){"target="blank"} to generate documentation for my C# playlist shuffler.
 
 I added [documentation for the playlist shuffler](/404.html). (4/10/17 - the documentation has been taken down for now)
 
