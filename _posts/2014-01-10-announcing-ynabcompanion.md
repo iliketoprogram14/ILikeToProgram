@@ -5,9 +5,11 @@ date: 2014-01-10
 tags: [windows-phone, ynab]
 ---
 
-After graduating from college this past year, I wanted to get my ducks in a row and start off life in the real world on a good financial foot. I ended up spending a lot of time on [the personal finance subreddit](http://reddit.com/r/personalfinance){:target="_blank"}, where a lot of people recommended (among other things) a budgeting app called [YNAB](http://ynab.com){:target="_blank"}, or "You Need A Budget". Ever since, I've been hooked on the desktop app because of its ease of use and its built-in ability to interface with Dropbox.</br></br>The app works by enabling users to manually add all transactions and transfers and compare the amounts against budgeted amounts, with the goal that users will eventually save enough to "live off of last month's income." The hard part, of course, is manually adding transactions to the app. To that end, the folks behind YNAB have mobile apps for iOS and Android.
+After graduating from college this past year, I wanted to get my ducks in a row and start off life in the real world on a good financial foot. I ended up spending a lot of time on [the personal finance subreddit](http://reddit.com/r/personalfinance){:target="_blank"}, where a lot of people recommended (among other things) a budgeting app called [YNAB](http://ynab.com){:target="_blank"}, or "You Need A Budget". Ever since, I've been hooked on the desktop app because of its ease of use and its built-in ability to interface with Dropbox.
 
 <!--more-->
+
+The app works by enabling users to manually add all transactions and transfers and compare the amounts against budgeted amounts, with the goal that users will eventually save enough to "live off of last month's income." The hard part, of course, is manually adding transactions to the app. To that end, the folks behind YNAB have mobile apps for iOS and Android.
 
 Unfortunately, there was no YNAB app for Windows Phone, and being a Windows Phone user, I had to manually add transactions on my laptop or desktop instead of being able to add them as soon as they happen on my phone. That was the motivation for YNABcompanion.
 
