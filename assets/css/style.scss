@@ -18,13 +18,19 @@ body {
     color: $darkgray;
     width: $width;
     max-width: $max-width;
-    margin: $center_margin;
+    margin: $center_margin; 
 }
 a {
     color: $link;
     &:hover, &:focus { color: $link_hover; }
 }
 li { padding-bottom: 0.5em; }
+
+div#body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+}
 
 @import "header";
 @import "content";
