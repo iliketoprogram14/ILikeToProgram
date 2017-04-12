@@ -1,7 +1,7 @@
 # _config.yml
 excerpt_separator: <!--more-->
 paginate: 5
-exclude: ["*.sh", "README.md"]
+exclude: ["*.sh", "README.md", ".travis.yml", vendor]
 gems:
   - jekyll-paginate
   - jekyll-sitemap
