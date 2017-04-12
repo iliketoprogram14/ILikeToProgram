@@ -1,0 +1,642 @@
+{ "data": [
+  {
+    "date": "11/19/2010",
+    "data": [
+	{
+		"title": "Why Bitcoin can’t be a currency",
+		"source": "The Underground Economist",
+		"url": "http://undergroundeconomist.com/post/1528511369"
+	},
+	{
+		"title": "Are there economic reasons why Bitcoin won't work?",
+		"source": "Quora",
+		"url": "http://www.quora.com/Bitcoin/Are-there-economic-reasons-why-Bitcoin-wont-work"
+	}
+    ]
+  },
+  {
+    "date": "4/16/2011",
+    "data": [
+	{
+		"title": "Online Cash Bitcoin Could Challenge Governments, Banks",
+		"source": "TIME",
+		"url": "http://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/"
+	},
+	{
+		"title": "Bitcoin: Imagine a net without intermediaries",
+		"source": "Tech Liberation",
+		"url": "http://techliberation.com/2011/04/16/bitcoin-imagine-a-net-without-intermediaries/"
+	},
+	{
+		"title": "Bitcoin is pretty sweet, but its extremely confusing",
+		"source": "YCombinator",
+		"url": "https://news.ycombinator.com/item?id=2454371"
+	}
+    ]
+  },
+  {
+    "date": "6/5/2011",
+    "data": [
+	{
+		"title": "Bitcoin, the Peer-to-Peer Currency that Hopes to Change the World",
+		"source": "The Next Web",
+		"url": "http://thenextweb.com/insider/2011/06/05/bitcoin-the-peer-to-peer-currency-that-hopes-to-change-the-world/"
+	},
+	{
+		"title": "Bitcoin Nears $20: Speculators a Force for Good?",
+		"source": "Bitcoin Frenzy",
+		"url": "http://www.bitcoinfrenzy.com/2011/06/bitcoin-nears-20-speculators-force-for.html"
+	},
+	{
+		"title": "Interview with Nefario, founder of Bitcoin Global",
+		"source": "Bitcoin Global",
+		"url": "http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global"
+	}
+    ]
+  },
+  {
+    "date": "6/19/2011",
+    "data": [
+	{
+		"title": "What Is Bitcoin?",
+		"source": "CNBC",
+		"url": "http://www.cnbc.com/id/43823614"
+	},
+	{
+		"title": "EFF and Bitcoin",
+		"source": "Electronic Frontier Foundation",
+		"url": "https://www.eff.org/deepurls/2011/06/eff-and-bitcoin"
+	},
+	{
+		"title": "Bitcoin Price Tumbles After Massive Account Hack and Sell-Off on Trading Site Mt.Gox",
+		"source": "Gizmodo",
+		"url": "http://gizmodo.com/5813622/bitcoin-price-tumbles-after-massive-account-hack-and-sell+off-on-trading-site-mtgox"
+	},
+	{
+		"title": "The Bitcoin Collapse: Can Hackers Save Their Favorite Currency?",
+		"source": "The Atlantic Wire",
+		"url": "http://www.theatlanticwire.com/technology/2011/06/bitcoin-mtgox-hack-collapse-anonymous-lulzsec/39023/"
+	},
+	{
+		"title": "Can Bitcoin Go Mainstream?",
+		"source": "CNBC",
+		"url": "http://www.cnbc.com/id/43470148"
+	},
+	{
+		"title": "Which Bitcoin Exchange Can You Trust?",
+		"source": "PC Magazine",
+		"url": "http://www.pcmag.com/article2/0,2817,2387279,00.asp"
+	},
+	{
+		"title": "EFF Gone Wobbly on Bitcoin",
+		"source": "Tech Liberation",
+		"url": "http://techliberation.com/2011/06/21/eff-gone-wobbly-on-bitcoin/"
+	},
+	{
+		"title": "Bitcoin: From Success To Flop In Record Time?",
+		"source": "PC World",
+		"url": "http://www.pcworld.com/article/230722/bitcoin_from_success_to_flop_in_record_time.html"
+	},
+	{
+		"title": "Bitcoin value plummets as main exchange is hacked",
+		"source": "New Scientist",
+		"url": "http://www.newscientist.com/blogs/onepercent/2011/06/bitcoin-value-plummets-as-main.html"
+	}
+    ]
+  },
+  {
+    "date": "10/21/2011",
+    "data": [
+	{
+		"title": "The bursting of the Bitcoin bubble",
+		"source": "The Economist",
+		"url": "http://www.economist.com/blogs/babbage/2011/10/virtual-currencies"
+	},
+	{
+		"title": "Why It Is Impossible For Bitcoin To Fail",
+		"source": "Bitcoin Blogger",
+		"url": "http://www.bitcoinblogger.com/2011/10/why-it-is-impossible-for-bitcoin-to.html"
+	}
+    ]
+  },
+  {
+    "date": "11/23/2011",
+    "data": [
+	{
+		"title": "The Rise and Fall of Bitcoin",
+		"source": "Wired",
+		"url": "http://www.wired.com/magazine/2011/11/mf_bitcoin/"
+	},
+	{
+		"title": "The Pros And Cons Of Biting on Bitcoins",
+		"source": "CNBC",
+		"url": "http://www.cnbc.com/id/45030812"
+	},
+	{
+		"title": "Will Bitcoin Kill the Dollar?",
+		"source": "Nvate",
+		"url": "http://nvate.com/2177/will-bitcoin-kill-the-dollar/"
+	},
+	{
+		"title": "Currency Stats",
+		"source": "Blockchain",
+		"url": "http://blockchain.info/stats"
+	}
+    ]
+  },
+  {
+    "date": "3/19/2012",
+    "data": [
+	{
+		"title": "Could Bitcoin Become the Currency of System D?",
+		"source": "Forbes",
+		"url": "http://www.forbes.com/sites/jonmatonis/2012/03/19/could-bitcoin-become-the-currency-of-system-d/"
+	},
+	{
+		"title": "Why destroy bitcoins?",
+		"source": "Stack Exchange",
+		"url": "http://bitcoin.stackexchange.com/questions/3228/why-destroy-bitcoins"
+	},
+	{
+		"title": "Recommendation for a Bitcoin meme",
+		"source": "Bitcoin Talk",
+		"url": "https://bitcointalk.org/index.php?topic=69435.0"
+	}
+    ]
+  },
+  {
+    "date": "10/4/2012",
+    "data": [
+	{
+		"title": "Bitcoin Prevents Monetary Tyranny",
+		"source": "Forbes",
+		"url": "http://www.forbes.com/sites/jonmatonis/2012/10/04/bitcoin-prevents-monetary-tyranny/"
+	},
+	{
+		"title": "Is anyone else buying BTC right now?",
+		"source": "Reddit",
+		"url": "http://www.reddit.com/r/Bitcoin/comments/lk053/is_anyone_else_buying_btc_right_now/"
+	},
+	{
+		"title": "Mt.Gox is announcing that all EUR transactions will be temporarily suspended within Europe, with immediate effect.",
+		"source": "Mt. Gox",
+		"url": "https://mtgox.com/press_release_20111021.html"
+	},
+	{
+		"title": "The Economist: The bursting of the Bitcoin bubble",
+		"source": "Bitcoin Money",
+		"url": "http://www.bitcoinmoney.com/post/11736030575/the-economist-burst-bubble"
+	},
+	{
+		"title": "Bitcoin is the latest alternate currency to crash",
+		"source": "Market Watch",
+		"url": "http://articles.marketwatch.com/2011-10-21/commentary/30695191_1_alternative-currency-schemes-tax-money"
+	},
+	{
+		"title": "Bitcoin Mining Still Profitable for Some; Hardcore BTCers Keep the Faith",
+		"source": "Beta Beat",
+		"url": "http://betabeat.com/2011/10/bitcoin-mining-still-profitable-for-some-hardcore-btcers-keep-the-faith/"
+	},
+	{
+		"title": "Bitcoin Prevents Monetary Tyranny",
+		"source": "Forbes",
+		"url": "http://www.forbes.com/sites/jonmatonis/2012/10/04/bitcoin-prevents-monetary-tyranny/"
+	},
+	{
+		"title": "Bitcoin's Biggest Problem: It's a Den of Thieves",
+		"source": "The Nyaruka Blog",
+		"url": "http://blog.nyaruka.com/bitcoins-biggest-problem-dens-of-thieves"
+	},
+	{
+		"title": "GLBSE, the biggest bitcoin stock exchange just disappeared.",
+		"source": "Reddit",
+		"url": "http://www.reddit.com/r/Bitcoin/comments/10xtqg/glbse_the_biggest_bitcoin_stock_exchange_just/"
+	},
+	{
+		"title": "What is currently (Oct-2012) the fastest way to buy bitcoins from europe?",
+		"source": "Reddit",
+		"url": "http://www.reddit.com/r/Bitcoin/comments/10yedo/what_is_currently_oct2012_the_fastest_way_to_buy/?utm_source=twitterfeed&utm_medium=twitter"
+	},
+	{
+		"title": "The Bitcoin Space Race Begins…now",
+		"source": "Think Proven",
+		"url": "http://www.thinkproven.com/bitcoin-race-to-asic/"
+	},
+	{
+		"title": "Does the U.S. Securities and Exchange Commission govern Bitcoin?",
+		"source": "Stack Exchange",
+		"url": "http://bitcoin.stackexchange.com/questions/4964/does-the-u-s-securities-and-exchange-commission-govern-bitcoin"
+	},
+	{
+		"title": "BitCoin Economy Size",
+		"source": "Lean Crowds",
+		"url": "http://leancrowds.com/blog/2012/10/04/bitcoin-economy-size"
+	}
+    ]
+  },
+  {
+    "date": "11/1/2012",
+    "data": [
+      {
+        "source": "Forbes",
+        "title": "ECB: 'Roots Of Bitcoin Can Be Found In The Austrian School Of Economics'",
+        "url": "http://www.forbes.com/sites/jonmatonis/2012/11/03/ecb-roots-of-bitcoin-can-be-found-in-the-austrian-school-of-economics/"
+      },
+      {
+        "source": "Bitcoin Foundation",
+        "title": "Core Development Status Report #1",
+        "url": "https://bitcoinfoundation.org/blog/?p=16"
+      },
+      {
+        "source": "Bitinstant",
+        "title": "The ECB Report on Bitcoin and Virtual Currencies",
+        "url": "http://blog.bitinstant.com/blog/2012/10/30/the-ecb-report-on-bitcoin-and-virtual-currencies.html"
+      },
+      {
+        "source": "American Banker",
+        "title": "Bitcoin Likely to Grow, Poses Benefits and Risks: ECB Report",
+        "url": "http://www.americanbanker.com/issues/177_210/bitcoin-likely-to-grow-poses-benefits-and-risks-according-to-ecb-report-1053998-1.html"
+      },
+      {
+        "source": "Coding In My Sleep",
+        "title": "Bitcoin and Natural Disasters",
+        "url": "http://codinginmysleep.com/bitcoin-and-natural-disasters/"
+      },
+      {
+        "source": "Libertarian News",
+        "title": "European Central Bank Report On Bitcoin: Its Likely To Grow And It Poses Risks",
+        "url": "http://www.libertariannews.org/2012/10/31/european-central-bank-report-on-bitcoin-its-likely-to-grow-and-it-poses-risks/"
+      }
+    ]
+  },
+  {
+    "date": "2/5/2013",
+    "data": [
+      {
+        "source": "The Daily Dot",
+        "title": "How to order a pizza with Bitcoins",
+        "url": "http://www.dailydot.com/news/pizzaforcoins-bitcoins-order-pizza-dominos/"
+      },
+      {
+        "source": "NPR",
+        "title": "Is Online Gambling Legal If Bitcoins, Not Dollars, Are At Stake?",
+        "url": "http://www.npr.org/blogs/alltechconsidered/2013/02/06/171182974/is-online-gambling-legal-if-bitcoins-not-dollars-are-at-stake"
+      },
+      {
+        "source": "Upstart Business Journal",
+        "title": "What do Amazon coins mean?",
+        "url": "http://upstart.bizjournals.com/news/wire/2013/02/06/a-look-at-amazon-coins-and-bitcoins.html?page=all"
+      },
+      {
+        "source": "The Verge",
+        "title": "All about Bitcoin: the rise and trials of an anonymous virtual currency",
+        "url": "http://www.theverge.com/2013/2/2/3945208/bitcoin-virtual-currency"
+      },
+      {
+        "source": "Hypergrid Business",
+        "title": "5 reasons to accept Bitcoin on your grid",
+        "url": "http://www.hypergridbusiness.com/2013/02/5-reasons-to-accept-bitcoin-on-your-grid/"
+      },
+      {
+        "source": "Coinbase Blog",
+        "title": "Coinbase Is Now Selling Over $1M USD Of Bitcoin Per Month",
+        "url": "http://blog.coinbase.com/post/42587245753/coinbase-is-now-selling-over-1m-usd-of-bitcoin-per"
+      },
+      {
+        "source": "Venture Beat",
+        "title": "Y Combinator-backed Coinbase now selling over $1M Bitcoins per month",
+        "url": "http://venturebeat.com/2013/02/08/coinbase-bitcoin/"
+      }
+    ]
+  },
+  {
+    "date": "3/6/2013",
+    "data": [
+      {
+        "source": "CNN",
+        "title": "Why cyber currency Bitcoin is trading at an all-time high",
+        "url": "http://money.cnn.com/2013/03/06/technology/innovation/bitcoin/index.html"
+      },
+      {
+        "source": "Wired",
+        "title": "Hackers Pull Off $12,000 Bitcoin Heist",
+        "url": "http://www.wired.com/wiredenterprise/2013/03/digital-thieves-pull-off-12000-bitcoin-heist/"
+      },
+      {
+        "source": "Motherboard",
+        "title": "Is It Time to Take Bitcoin Seriously?",
+        "url": "http://motherboard.vice.com/blog/is-it-time-to-take-bitcoin-seriously"
+      },
+      {
+        "source": "Forbes",
+        "title": "Bitcoin Ready To Go Mainstream With First U.S. Exchange",
+        "url": "http://www.forbes.com/sites/saranyakapur/2013/03/05/bitcoin-ready-to-go-mainstream-with-first-u-s-exchange/"
+      },
+      {
+        "source": "The Guardian",
+        "title": "Bitcoin: more than just the currency of digital vice",
+        "url": "http://www.guardian.co.uk/business/2013/mar/04/bitcoin-currency-of-vice"
+      },
+      {
+        "source": "The Verge",
+        "title": "New Bitcoin-only electronics retailer hopes to undercut huge competition like Amazon and NewEgg",
+        "url": "http://www.theverge.com/2013/3/4/4063084/new-bitcoin-only-electronics-retailer-competing-with-amazon-newegg"
+      },
+      {
+        "source": "Pando Daily",
+        "title": "Bitcoin me: Adam Drapers Boost VC makes a big bet on the virtual currency",
+        "url": "http://pandodaily.com/2013/03/08/bitcoin-me-adam-drapers-boost-vc-makes-a-big-bet-on-the-virtual-currency/"
+      },
+      {
+        "source": "Seeking Alpha",
+        "title": "Bitcoin Bubble 2.0",
+        "url": "http://seekingalpha.com/instablog/7761841-patrik-korda/1616371-bitcoin-bubble-2-0"
+      },
+      {
+        "source": "Barron's",
+        "title": "Meet Bitcoin, the World's Bet Performing Currency",
+        "url": "http://blogs.barrons.com/emergingmarketsdaily/2013/03/05/meet-bitcoin-the-worlds-best-performing-currency/"
+      },
+      {
+        "source": "Business Insider",
+        "title": "Suddenly, Everyone's Talking About Bitcoin...",
+        "url": "http://www.businessinsider.com/what-is-bitcoin-2013-3"
+      }
+    ]
+  },
+  {
+    "date": "4/3/2013",
+    "data": [
+      {
+        "source": "The New Yorker",
+        "title": "The Bitcoin Boom",
+        "url": "http://www.newyorker.com/online/blogs/elements/2013/04/the-future-of-bitcoin.html"
+      },
+      {
+        "source": "CNN",
+        "title": "Bitcoin price goes on wild ride",
+        "url": "http://money.cnn.com/2013/04/03/investing/bitcoin-price/index.html"
+      },
+      {
+        "source": "The Washington Post",
+        "title": "Here's a simple, 60-second primer on Bitcoin",
+        "url": "http://www.washingtonpost.com/blogs/wonkblog/wp/2013/04/03/heres-a-simple-60-second-primer-on-bitcoin/"
+      },
+      {
+        "source": "CNN",
+        "title": "Bitcoin ATMs coming soon",
+        "url": "http://money.cnn.com/2013/04/04/investing/bitcoin-atms/index.html"
+      },
+      {
+        "source": "Yahoo! Finance",
+        "title": "Bitcoin Prices Blast Through $100, Driving Speculators Wild",
+        "url": "http://finance.yahoo.com/blogs/daily-ticker/bitcoin-prices-blast-100-driving-speculators-wild-150415225.html"
+      },
+      {
+        "source": "NY Mag",
+        "title": "I Bought a Bitcoin: How I Joined a Virtual Currency Megabubble",
+        "url": "http://nymag.com/daily/intelligencer/2013/04/i-bought-a-bitcoin.html"
+      },
+      {
+        "source": "TechCrunch",
+        "title": "Why VCs Love The Bitcoin Market",
+        "url": "http://techcrunch.com/2013/04/05/why-do-vcs-care-about-bitcoin/"
+      },
+      {
+        "source": "Wired",
+        "title": "Trojan Turns Your PC Into Bitcoin Mining Slave",
+        "url": "http://www.wired.com/wiredenterprise/2013/04/bitcoin-trojan/"
+      },
+      {
+        "source": "The Telegraph",
+        "title": "Bitcoin, the 'new gold' - but what on earth is it?",
+        "url": "http://www.telegraph.co.uk/finance/economics/9970738/Bitcoin-the-new-gold-but-what-on-earth-is-it.html"
+      },
+      {
+        "source": "The Verge",
+        "title": "Barons of Bitcoin: The Tokyo-based powerhouse that controls the world's virtual money",
+        "url": "http://www.theverge.com/2013/4/1/4154500/mt-gox-barons-of-bitcoin"
+      }
+    ]
+  },
+  {
+    "date": "4/9/2013",
+    "data": [
+      {
+        "source": "The Verge",
+        "title": "Bitcoin price fluctuates wildly after massive run-up, DDoS attacks reportedly to blame (update)",
+        "url": "http://www.theverge.com/2013/4/10/4209800/bitcoin-price-fluctuates-wildly-after-massive-run-up"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Bitcoin crashes, losing nearly half of its value in six hours",
+        "url": "http://arstechnica.com/business/2013/04/bitcoin-crashes-losing-nearly-half-of-its-value-in-six-hours/"
+      },
+      {
+        "source": "CBS",
+        "title": "Bitcoin hits new high, then nosedives in flash crash",
+        "url": "http://www.cbsnews.com/8301-34227_162-57578984/bitcoin-hits-new-high-then-nosedives-in-flash-crash/"
+      },
+      {
+        "source": "CNBC",
+        "title": "Bitcoin Bounces Back After Crashing Nearly 60%",
+        "url": "http://www.cnbc.com/id/100632030"
+      },
+      {
+        "source": "The Guardian",
+        "title": "Bitcoin hits new high before losing $160 in value in one day",
+        "url": "http://www.guardian.co.uk/technology/2013/apr/10/bitcoin-new-high-losing-160"
+      },
+      {
+        "source": "Business Insider",
+        "title": "Bitcoin is crashing",
+        "url": "http://www.businessinsider.com/bitcoin-plunges-2013-4"
+      },
+      {
+        "source": "CNN",
+        "title": "Bitcoin bubble begins to burst, price plunges 60%",
+        "url": "http://buzz.money.cnn.com/2013/04/10/bitcoin-bubble-burst/"
+      },
+      {
+        "source": "CNET",
+        "title": "Bitcoin bubble burst? Currency suffers dramatic correction",
+        "url": "http://news.cnet.com/8301-1023_3-57578985-93/bitcoin-bubble-burst-currency-suffers-dramatic-correction/"
+      },
+      {
+        "source": "TechCrunch",
+        "title": "Bitcoin Suffers A Correction Amid Apparent DDOS Attacks on Some Exchanges",
+        "url": "http://techcrunch.com/2013/04/10/bitcoin-crash/"
+      },
+      {
+        "source": "The Next Web",
+        "title": "The only two Bitcoin charts that you need",
+        "url": "http://thenextweb.com/shareables/2013/04/10/the-only-two-bitcoin-charts-that-you-need/"
+      }
+    ]
+  },
+  {
+    "date": "4/16/2013",
+    "data": [
+      {
+        "source": "ExtremeTech",
+        "title": "AMD destroys Nvidia at Bitcoin mining, can the gap ever be bridged",
+        "url": "http://www.extremetech.com/computing/153467-amd-destroys-nvidia-bitcoin-mining"
+      },
+      {
+        "source": "BBC",
+        "title": "Bitcoin: Dawn of a new currency or destined to fail?",
+        "url": "http://www.bbc.co.uk/news/technology-22152213"
+      },
+      {
+        "source": "Business Insider",
+        "title": "The Bitcoin Collapse Continues - Now Below $57",
+        "url": "http://www.businessinsider.com/bitcoin-57-dollars-2013-4"
+      },
+      {
+        "source": "Huffington Post",
+        "title": "Bitcoin Celebrated As Way To Avoid Taxes",
+        "url": "http://www.huffingtonpost.com/2013/04/16/bitcoin-taxes_n_3093182.html"
+      },
+      {
+        "source": "The Wall Street Journal",
+        "title": "Bitcoin Investors Hang On for the Ride",
+        "url": "http://online.wsj.com/article/SB10001424127887324345804578426692340390104.html"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "OKCupid says it will accept Bitcoin, as currency falls to recent low",
+        "url": "http://arstechnica.com/business/2013/04/okcupid-says-it-will-accept-bitcoin-as-currency-falls-to-recent-low/"
+      },
+      {
+        "source": "The National Interest",
+        "title": "The Bitcoin Bubble and a Bad Hypothesis",
+        "url": "http://nationalinterest.org/commentary/the-bitcoin-bubble-bad-hypothesis-8353"
+      },
+      {
+        "source": "Motherboard",
+        "title": "Lessons from the Second Great Bitcoin Crash",
+        "url": "http://motherboard.vice.com/blog/lessons-from-the-second-great-bitcoin-crash"
+      },
+      {
+        "source": "Bloomberg",
+        "title": "Bitcoin Dreams Endure to Savers Crushed by CPI: Argentina Credit",
+        "url": "http://www.bloomberg.com/news/2013-04-16/bitcoin-dreams-endure-to-savers-crushed-by-cpi-argentina-credit.html"
+      },
+      {
+        "source": "Forbes",
+        "title": "Founder Of Drug Site Silk Road Says Bitcoin Booms And Busts Won't Kill His Black Market",
+        "url": "http://www.forbes.com/sites/andygreenberg/2013/04/16/founder-of-drug-site-silk-road-says-bitcoin-booms-and-busts-wont-kill-his-black-market/"
+      }
+    ]
+  },
+  {
+    "date": "4/19/2013",
+    "data": [
+      {
+        "source": "Upstart Business Journal",
+        "title": "WikiLeaks' Julian Assange schools Google's Eric Schmidt on Bitcoin",
+        "url": "http://upstart.bizjournals.com/news/technology/2013/04/19/julian-assange-and-eric-schmidt-bitcoin.html?page=all"
+      },
+      {
+        "source": "Complex Tech",
+        "title": "Kill Your Currency: Why Bitcoins Are Revolutionary",
+        "url": "http://www.complex.com/tech/2013/04/kill-your-currency-why-bitcoins-are-revolutionary"
+      },
+      {
+        "source": "Wired",
+        "title": "Whats Riskier Than Bitcoins? Bitcoin Companies",
+        "url": "http://www.wired.com/business/2013/04/whats-riskier-than-bitcoins-bitcoin-companies/"
+      },
+      {
+        "source": "Yahoo! Finance",
+        "title": "The Bitcoin Implosion: 5 Signs of an Investing Bubble",
+        "url": "http://finance.yahoo.com/blogs/breakout/bitcoin-implosion-5-signs-investing-bubble-142629328.html"
+      },
+      {
+        "source": "PCWorld",
+        "title": "Russian malware mines bitcoins via botnet, security firm warns",
+        "url": "http://www.pcworld.com/article/2035749/russian-malware-mines-bitcoins-through-botnet.html"
+      },
+      {
+        "source": "Silicon Angle",
+        "title": "Western Union and MoneyGram Ponder the Future of Bitcoin",
+        "url": "http://siliconangle.com/blog/2013/04/19/western-union-and-moneygram-ponder-the-future-of-bitcoin/"
+      },
+      {
+        "source": "The Daily Barometer",
+        "title": "Bitcoin currency is the future",
+        "url": "http://www.dailybarometer.com/bitcoin-currency-is-the-future-1.3031661#.UYHQLLWG1rU"
+      },
+      {
+        "source": "Reddit",
+        "title": "Java exploit stole all my BTC",
+        "url": "http://www.reddit.com/r/Bitcoin/comments/1cokps/java_exploit_stole_all_my_btc/"
+      },
+      {
+        "source": "The Wall Street Journal",
+        "title": "Bitcoin Outshines Canada's Stalled MintChip",
+        "url": "http://blogs.wsj.com/canadarealtime/2013/04/19/bitcoin-outshines-canadas-stalled-mintchip/"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Bitfloor, number four Bitcoin-based exchange, shuts down for good",
+        "url": "http://arstechnica.com/business/2013/04/bitfloor-number-four-bitcoin-based-exchange-shuts-down-for-good/"
+      }
+    ]
+  },
+  {
+    "date": "5/1/2013",
+    "data": [
+      {
+        "source": "Forbes",
+        "title": "Living On Bitcoin For A Week: The Journey Begins",
+        "url": "http://www.forbes.com/sites/kashmirhill/2013/05/01/living-on-bitcoin-for-a-week-the-journey-begins/"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Secret Bitcoin mining code added to e-sports software sparks outrage",
+        "url": "http://arstechnica.com/security/2013/05/secret-bitcoin-mining-software-added-to-video-game-sparks-outrage/"
+      },
+      {
+        "source": "Huffington Post",
+        "title": "What If All the Bitcoin Exchanges in the World Were Shut Down?",
+        "url": "http://www.huffingtonpost.com/max-keiser/what-if-all-the-bitcoin-e_b_3170739.html"
+      },
+      {
+        "source": "CNBC",
+        "title": "Ashton Kutcher Bites Into 'Bitcoin Revolution'",
+        "url": "http://www.cnbc.com/id/100696230"
+      },
+      {
+        "source": "US News",
+        "title": "Should You Invest in Bitcon?",
+        "url": "http://money.usnews.com/money/personal-finance/articles/2013/05/01/should-you-invest-in-bitcoin"
+      },
+      {
+        "source": "Wired",
+        "title": "Rogue Employee Turns Gaming Network Into Private Bitcoin Mine",
+        "url": "http://www.wired.com/wiredenterprise/2013/05/esea/"
+      },
+      {
+        "source": "Reddit",
+        "title": "22 Days and Bitinstant still hasn't given me my money.  Upvote so I can get help?",
+        "url": "http://www.reddit.com/r/Bitcoin/comments/1di1ww/22_days_and_bitinstant_still_hasnt_given_me_my/"
+      },
+      {
+        "source": "",
+        "title": "",
+        "url": "http://rt.com/op-edge/bitcoin-exchange-speculative-market-619/"
+      },
+      {
+        "source": "RT",
+        "title": "Should bitcoin's price be determined by users or speculators?",
+        "url": "http://www.bostonglobe.com/business/2013/04/29/bitcoin-believers-hoping-their-faith-will-pay-off/JtIsyoUprWKAOymhYmqihM/story.html"
+      },
+      {
+        "source": "Boston Globe",
+        "title": "Bitcoin believers hoping their faith will pay off",
+        "url": "http://www.bostonglobe.com/business/2013/04/29/bitcoin-believers-hoping-their-faith-will-pay-off/JtIsyoUprWKAOymhYmqihM/story.html"
+      }
+    ]
+  }
+]}
