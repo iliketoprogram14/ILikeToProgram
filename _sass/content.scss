@@ -1,0 +1,36 @@
+@import "common";
+
+#content {
+    font-size: $normal_font_size;
+    ol { padding-left: 1em; color: $darkgray; }
+    ul { @extend ol; list-style: none;  }
+    pre {
+        text-align: left;
+        white-space: pre-wrap;       /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    div #___gcse_0 {
+        margin-top: 1em;
+        max-width: $max-width / 2.72;
+    }
+    a#next, a#prev {
+        text-decoration: none;
+        float: left;
+        padding-right: 1.5em;
+        padding-top: 1.5em;
+        color: $accent;
+    }
+    img#profile-picture { padding-left: 1.5em; }
+    #tag-index .tag-collection { display: none; }
+    p#tag-list { font-size: $normal_font_size; }
+    p#tag-list a.tag-link { color: $accent; padding-left: 0.5em; }
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    @import "post";
+}
