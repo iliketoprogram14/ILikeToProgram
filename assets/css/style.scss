@@ -22,6 +22,7 @@ $altlink: black;
 $link3: $lightgray;
 $link3_hover: black;
 
+html { overflow-y: scroll; }
 body {
     background-color: white;
     background-position: top center;
@@ -29,30 +30,20 @@ body {
     font-family: "Segoe UI", sans-serif;
     font-size: $normal_font_size;
     color: $darkgray;
-    margin: 0;
+    width: $width;
+    max-width: $max-width;
+    margin: $center_margin;
 }
 
-a { color: $link; }
-a:hover, a:focus { color: $link_hover; }
+a {
+    color: $link;
+    &:hover, &:focus { color: $link_hover; }
+}
 li { padding-bottom: 0.5em; }
-pre {
-    text-align: left;
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-div #___gcse_0 {
-    margin-top: 1em;
-    max-width: $max-width / 2.72;
-}
 
 #header {
-    width: $width; max-width: $max-width;
-    min-height: 90px; max-height: 180px;    
+    min-height: 90px; max-height: 180px;
     position: relative;  overflow: hidden;
-    margin: $center_margin;
 
     h1#title {
         float: left;
@@ -70,37 +61,40 @@ div #___gcse_0 {
         li {
             float: left;
             position: relative;
-            @media only screen and (min-width: 360px) {
-                margin: 0 0 0 2em; 
-            }
-            /* Min width for phones is 320px, aka iPhone 3-5 */
-            @media only screen and (max-width: 359px) {
-                margin: 0 0 0 0.75em;
-            }
-            /* Min width for watches is 280px */
-            @media only screen and (max-width: 305px) {
-                margin: 0 0 0 0.5em;
-            }
             letter-spacing: 2px;
             font-size: 1.25em;
+            @media only screen {
+                @media (min-width: 360px) { margin: 0 0 0 2em; }
+                @media (max-width: 359px) { margin: 0 0 0 0.75em; } /* iPhone 5, etc */
+                @media (max-width: 305px) { margin: 0 0 0 0.5em; }  /* Smart watches */
+            }
             a {
                 color: $link3;
                 text-decoration: none;
+                &.active { color: $altlink; }
+                &:hover, &:focus { color: $link3_hover; }
             }
-            a.active { color: $altlink }
-            a:hover, a:focus { color: $link3_hover; }            
+            &:first-child { margin: 0; }
         }
-        li:first-child { margin: 0; }              
     }
 }
 
 #content {
-    width: $width;
-    max-width: $max-width;
-    margin: $center_margin;
     font-size: $normal_font_size;
     ol { padding-left: 1em; color: $darkgray; }
     ul { @extend ol; list-style: none;  }
+    pre {
+        text-align: left;
+        white-space: pre-wrap;       /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    div #___gcse_0 {
+        margin-top: 1em;
+        max-width: $max-width / 2.72;
+    }    
     .post {
         position: relative;
         margin: 0;
@@ -108,8 +102,10 @@ div #___gcse_0 {
         overflow: hidden;
         .post-header {
             color: black;
-            h1.post-title { padding-bottom: 0; margin-bottom: 0; }
-            h1 a { text-decoration: none; color: $altlink; }
+            h1 {
+                &.post-title { padding-bottom: 0; margin-bottom: 0; }
+                a { text-decoration: none; color: $altlink; }
+             }
         }
         ol { 
             padding-left: 2em;
@@ -146,15 +142,17 @@ div #___gcse_0 {
 
     p#tag-list { font-size: $normal_font_size; }
     p#tag-list a.tag-link { color: $accent; padding-left: 0.5em; }
-}
-#content:after {
-    content: "";
-    display: block;
-    clear: both;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 }
 
 #footer {
-    width: $width; max-width: $max-width; clear: both; color: $darkgray;
+    clear: both; color: $darkgray; padding-bottom: 1em;
     text-align: right; position: relative; overflow: hidden;
-    margin: $center_margin; padding-bottom: 1em;
 }
+
+@import "syntax";

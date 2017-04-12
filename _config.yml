@@ -6,4 +6,6 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-tidy
-  
+sass:
+  sass_dir: _sass
+  style: compressed
