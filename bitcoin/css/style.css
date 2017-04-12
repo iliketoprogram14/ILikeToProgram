@@ -1,0 +1,406 @@
+/******************************************************************************
+ *                                                                            *
+ *                                 Randy Miller                               *
+ *                               Chandan G Lodha                              *
+ *                                    CS 171                                  *
+ *                                 Project III                                *
+ *                                 Stylesheet                                 *
+ *                                                                            *
+ ******************************************************************************/
+
+#story {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#story > div {
+    padding: 15px;
+    margin: 5px;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 200%;
+    float: left;
+    width: 1em;
+    height: 1em;
+}
+
+.story1 {
+    background-color: rgba(127,201,127,0.8);
+}
+
+.story2 {
+    background-color: rgba(127,201,174,0.8);
+}
+
+.story3 {
+    background-color: rgba(127,183,201,0.8);
+}
+
+.story4 {
+    background-color: rgba(171,127,201,0.8);
+}
+
+.story5 {
+    background-color: rgba(127,130,201,0.8);
+}
+
+.story6 {
+    background-color: rgba(90,110,201,0.7);
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Lato', Arial, serif;
+    background: #ddd url('../img/wavegrid.png') repeat top left;
+    font-weight: 300;
+    font-size: 14px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: #888;
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, #sources a:hover, #story a:hover, #articles-panel a:hover {
+    outline: 0;
+    color: orange;
+}
+
+a:active, #sources a:active, #story a:active, #articles-panel a:active {
+    outline: 0;
+    color: red;
+}
+
+#video {
+    display: inline;
+    float: left;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#price-charts {
+    width: 550px;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    float: left;
+}
+
+.main {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+svg {
+    font-family: 'Lato', Arial, serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+}
+
+.container > header {
+    margin: 10px;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container > header h1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin: 0;
+    position: relative;
+    font-weight: 300;
+    color: #666;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+.container > header p {
+    margin: 0;
+    padding: 15px 0 5px 0;
+    color: #888;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+#chart-container {
+    width: 1300px;
+    margin: 0 auto 50px auto;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    padding: 20px 30px;
+}
+
+#chart-container h2 {
+    color: #444;
+    margin: 0 0 10px;
+    font-weight: 300;
+    padding: 10px;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+
+#articles-panel {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin: auto;
+    width: 230px;
+    height: 550px;
+    border-style: solid;
+    border-color: #aaa;
+    border-width: 1px;
+    padding: 3px;
+    visibility: hidden;
+}
+
+
+#articles-panel div {
+    text-align: left;
+    padding: 1.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#article-header {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.article-source {
+    font-weight: bold;
+}
+
+.article-title {
+    font-weight: normal;
+}
+
+#bar-charts {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#volume-chart {
+    width: 550px;
+    display: inline-block;
+    float: right;
+    padding-bottom: 30px;
+}
+
+text.investment-type {
+    font-size: 18px;
+}
+
+text.instructions {
+    font-size: 16px;
+}
+
+g.context g.brush rect.background {
+    fill: rgba(0,0,0,.1);
+}
+
+g.context g.axis path {
+    stroke-opacity: 0;
+}
+
+g.context g.axis line {
+    stroke-opacity: .1;
+}
+
+#chart0, .bar0 {
+    fill: rgb(127,201,127);
+}
+
+#chart1, .bar1 {
+    fill: rgb(127,201,174);
+}
+
+#chart2, .bar2 {
+    fill: rgb(127,183,201);
+}
+
+#chart3 , .bar3 {
+    fill: rgb(171,127,201);
+}
+
+#chart4, .bar4 {
+    fill: rgb(127,130,201);
+}
+
+#trend0 {
+    fill: rgb(240,69,7);
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #aaa;
+    shape-rendering: crispEdges;
+}
+
+.brush .extent {
+    stroke: #f09f8c;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}
+
+g.context rect.background{
+    fill: rgb(200,200,255);
+    visibility: visible !important;
+}​
+
+.chart rect {
+    stroke: white;
+}
+
+.delta_line_neutral {
+    stroke: black;
+}
+
+.delta_line_positive {
+    stroke: green;
+}
+
+.delta_line_negative {
+    stroke: red;
+}
+
+.selected_link {
+    font-weight: bold;
+    pointer-events: none;
+    cursor: default;
+}
+
+#control-form {
+    float: right;
+}
+
+.stockbutton {
+    padding: 3px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.stockbutton:hover {
+    background: rgb(240,69,7);
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stockbutton > img {
+    height: 13px;
+    vertical-align: -7%;
+}
+
+#trends, #search, #control-form {
+    display: inline-block;
+}
+
+#trendtext {
+    color: #444;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 1100px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+    margin-bottom: 12px;
+}
+
+#sources {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 1000px;
+}
+
+#story a {
+    font-weight: bold;
+}
+
+#sources a, #story a, #articles-panel a{
+    color: blue;
+}
+
+#sources h2 {
+    text-align: center;
+}
