@@ -23,4 +23,4 @@ Back on topic, YNABcompanion is optimally used in the following way:
 
 Again, this is a simple app, but it's pretty effective at addressing the goal of adding transactions on the go for YNAB (without directly syncing with YNAB).
 
-You can learn more about the app <a href="{{ site.data.projects['ynabcompanion'].url }}">here</a>. The app's currently in certification, but I'll update this post and the project page with the link as soon as it's approved. I hope YNAB/Windows Phone users find this app useful (until I finish the real YNAB app)!
+You can learn more about the app [here]({{ site.data.projects['ynabcompanion'].url }}). The app's currently in certification, but I'll update this post and the project page with the link as soon as it's approved. I hope YNAB/Windows Phone users find this app useful (until I finish the real YNAB app)!

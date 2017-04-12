@@ -32,6 +32,11 @@ tags: updates website
  - Download the amazon AWS cli
    + sudo apt-get install awscli
  - gem install s3_website - [link](https://github.com/laurilehmijoki/s3_website)
+ - Route 53 hosted zone
+ - Optional
+   + Route 53 domain
+   + Cloudfront CDN (gzip, caching)
+   + SSL with Cloudfront
 
 # Local setup
  - [RTFM](https://jekyllrb.com/docs/home/)
@@ -42,22 +47,18 @@ tags: updates website
  - Create index.html
 
 # Test setup
- - From working directory, run "jekyll build"
+ - From working directory, run "jekyll build" to create your site
  <!--- [Install Apache for Ubuntu](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment)-->
- - Update DocumentRoot in /etc/apache2/sites-available/000-default.conf to point to the _sites subdirectory in your working directory
- - Navigate to localhost in your favorite browser
-
-# Test loop
- - Run jekyll build (--incremental flag?) and refresh localhost
- - Alternatively, run jekyll build --watch once, then subsequently only refresh localhost whenever you make changes
+ - Run "jekyll serve" to build and run a server
+ - Navigate to localhost:4000 in your favorite browser
 
 # Deployment setup
- - Set up aws cli
- - aws sync _site/ s3://<bucket>
-
-# Deployment loop
- - aws sync _site/ s3://<bucket>
- - Can just add as a post hook to git push or whatever 
+ - Option 1
+   + Set up aws cli
+   + aws sync _site/ s3://<bucket>
+ - Option 2
+   + Set up s3_website
+   + s3_website push
 
 # Writing posts
  - I use the _drafts folder
