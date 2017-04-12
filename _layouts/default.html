@@ -3,12 +3,14 @@
   <head>
 {% include head.html %}
   </head>
-  <body>
-{% include analytics.html %}
-{% include header.html %}
-<div id="content">
-{{ content }}
-</div>
-{% include footer.html %}
+  <body onload="document.getElementById('body').style.opacity='1'">
+    {% include analytics.html %}
+    {% include header.html %}
+    <div id="body">
+      <div id="content">
+      {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
   </body>
 </html>
