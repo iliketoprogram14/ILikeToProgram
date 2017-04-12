@@ -9,5 +9,9 @@ layout: default
       <div class="post-content">
         {{ content }}
         <p id="tag-list">Tags: {% for tag in page.tags %}<a href="/search.html?tag={{ tag }}" class="tag-link">{{ tag }}</a> {% endfor %}</p>
+        <div>
+          {% if page.previous %}<a href="{{ page.previous.url }}" id="prev">&laquo; Previous</a>{% endif %}
+          {% if page.next %}<a href="{{ page.next.url }}" id="next">Next &raquo;</a>{% endif %}
+        </div>
       </div>
     </div>
