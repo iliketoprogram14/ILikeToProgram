@@ -5,7 +5,7 @@ date: 2013-04-23
 tags: [dual-boot, cuda]
 ---
 
-This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series [here]({{ site.baseurl }}{% post_url 2013-04-23-dual-booting-ubuntu-with-cuda-on-a-pc-(pt.-1) %}).
+This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series [here]({{ site.github.url }}{% post_url 2013-04-23-dual-booting-ubuntu-with-cuda-on-a-pc-(pt.-1) %}).
 
 <!--more-->
 
