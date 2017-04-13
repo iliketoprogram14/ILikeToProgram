@@ -28,6 +28,10 @@ morsecodeim:
   url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
   language: Verilog
   spec: /assets/pdf/MorseCodeSpec.pdf
+bitcoinviz:
+  title: Bitcoin Visualization
+  url: https://iliketoprogram14.github.io/BitcoinViz/
+  language: Javascript
 parallelimage:
   title: Parallel Image Segmentation
   url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
