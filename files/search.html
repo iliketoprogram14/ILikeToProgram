@@ -13,7 +13,7 @@ permalink: search.html
       {% for posts in tag %}
         {% for post in posts %}
           {% if post.title %}
-            <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li>{{ post.date | date: "%b %d, %Y" }} - <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -21,3 +21,4 @@ permalink: search.html
   </div>
 {% endfor %}
 </div>
+<script src="{{ site.github.url }}/assets/js/search.js"></script>
