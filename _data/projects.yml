@@ -21,9 +21,8 @@ kinectarduinocar:
   spec: /assets/pdf/KinectSpec.pdf
 distributedtasklist:
   title: Distributed Task List
-  url: 
+  url: /assets/pdf/262TasklistSpec.pdf
   language: Java and Python
-  spec: /assets/pdf/262TasklistSpec.pdf
 morsecodeim:
   title: Morse Code IM
   url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
