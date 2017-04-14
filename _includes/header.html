@@ -1,9 +1,10 @@
+  {% include global_vars.html %}
   <div id="header">
-    <h1 id="title"><a href="{{ site.github.url }}/">I like to program</a></h1>  
+    <h1 id="title"><a href="{{ baseurl }}/">I like to program</a></h1>  
     <ul id='navigation'>
-      <li><a href="{{ site.github.url }}/"{% if page.url == "/" %} class="active"{% endif %}>Blog</a></li>
-      <li><a href="{{ site.github.url }}/archive.html"{% if page.url contains "archive" %} class="active"{% endif %}>Archive</a></li>
-      <li><a href="{{ site.github.url }}/projects.html"{% if page.url contains "projects" %} class="active"{% endif %}>Projects</a></li>
-      <li><a href="{{ site.github.url }}/about.html"{% if page.url contains "about" %} class="active"{% endif %}>About</a></li>
+      <li><a href="{{ baseurl }}/"{% if page.url == "/" %} class="active"{% endif %}>Blog</a></li>
+      <li><a href="{{ baseurl }}/archive.html"{% if page.url contains "archive" %} class="active"{% endif %}>Archive</a></li>
+      <li><a href="{{ baseurl }}/projects.html"{% if page.url contains "projects" %} class="active"{% endif %}>Projects</a></li>
+      <li><a href="{{ baseurl }}/about.html"{% if page.url contains "about" %} class="active"{% endif %}>About</a></li>
     </ul>
   </div>
