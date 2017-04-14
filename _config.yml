@@ -1,11 +1,21 @@
 # _config.yml
+title: I like to program
+email: iliketoprogram14@gmail.com
+description: Personal website for side projects.
+url: http://iliketoprogram.com
+github_username: iliketoprogram14
+repository: iliketoprogram14/ILikeToProgram
+author:
+  name: Randy
+
 excerpt_separator: <!--more-->
 paginate: 5
-exclude: ["*.sh", "README.md", ".travis.yml", vendor]
-gems:
+exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock]
+gems: 
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-tidy
+  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
