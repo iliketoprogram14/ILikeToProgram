@@ -18,16 +18,17 @@ kinectarduinocar:
   title: Kinect Arduino Car
   url: https://www.youtube.com/watch?v=4v98L51F9Vw
   language: C#
-  spec: {{ site.github.url }}/assets/pdf/KinectSpec.pdf
+  spec: /assets/pdf/KinectSpec.pdf
 distributedtasklist:
   title: Distributed Task List
-  url: {{ site.github.url }}/assets/pdf/262TasklistSpec.pdf
+  url: 
   language: Java and Python
+  spec: /assets/pdf/262TasklistSpec.pdf
 morsecodeim:
   title: Morse Code IM
   url: https://www.youtube.com/watch?v=PY2Q4gfPRhg
   language: Verilog
-  spec: {{ site.github.url }}/assets/pdf/MorseCodeSpec.pdf
+  spec: /assets/pdf/MorseCodeSpec.pdf
 bitcoinviz:
   title: Bitcoin Visualization
   url: https://iliketoprogram14.github.io/BitcoinViz/
