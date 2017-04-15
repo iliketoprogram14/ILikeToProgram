@@ -3,6 +3,7 @@ layout: post
 title: New Project - Tic Tac Toe
 date: 2011-06-19
 tags: [updates, tic-tac-toe]
+description: Writing Tic Tac Toe in Java, hosted on GitHub.
 ---
 
 That was awesome. 

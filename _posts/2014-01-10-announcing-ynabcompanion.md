@@ -3,15 +3,19 @@ layout: post
 title: Announcing YNABcompanion
 date: 2014-01-10
 tags: [windows-phone, ynab]
+image: https://upload.wikimedia.org/wikipedia/commons/3/32/You_Need_A_Budget_Logo.png
+image_alt: YNAB logo
+image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AYou_Need_A_Budget_Logo.png" title="YNAB logo by Jesse Mecham via Wikimedia Commons">Wikimedia Commons</a>
+description: Created an unreleased Windows Phone app in C# for YNAB with limited features.
 ---
 
 After graduating from college this past year, I wanted to get my ducks in a row and start off life in the real world on a good financial foot. I ended up spending a lot of time on [the personal finance subreddit](http://reddit.com/r/personalfinance){:target="_blank"}, where a lot of people recommended (among other things) a budgeting app called [YNAB](http://ynab.com){:target="_blank"}, or "You Need A Budget". Ever since, I've been hooked on the desktop app because of its ease of use and its built-in ability to interface with Dropbox.
 
+Unfortunately, there was no YNAB app for Windows Phone, and being a Windows Phone user, I had to manually add transactions on my laptop or desktop instead of being able to add them as soon as they happen on my phone. That was the motivation for YNABcompanion.
+
 <!--more-->
 
 The app works by enabling users to manually add all transactions and transfers and compare the amounts against budgeted amounts, with the goal that users will eventually save enough to "live off of last month's income." The hard part, of course, is manually adding transactions to the app. To that end, the folks behind YNAB have mobile apps for iOS and Android.
-
-Unfortunately, there was no YNAB app for Windows Phone, and being a Windows Phone user, I had to manually add transactions on my laptop or desktop instead of being able to add them as soon as they happen on my phone. That was the motivation for YNABcompanion.
 
 Ultimately, YNABcompanion is a very simple transactions manager app that interfaces specifically with Dropbox and YNAB. The app only took about a week and a half of development time (most of which was dedicated to resolving issues caused by my ignorance of the platform, which I'll address in later posts), but it's a pretty effective app to help track transactions for YNAB. 
 

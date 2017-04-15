@@ -8,7 +8,10 @@ title: Blog
     <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <div class="post-date">{{ post.date | date: "%B %e, %Y" }}</div>
   </div>
-  <div class="post-content">{{ post.excerpt }}</div>
+  <div class="post-content">
+    {% include post_photo.html page=post %}
+    {{ post.excerpt }}
+  </div>
   <div><a href="{{ post.url }}">More...</a></div>
 </div>
 {% endfor %}

@@ -1,0 +1,6 @@
+        {% if include.page.image %}
+        <figure class="post-photo">
+          <a href="{{ include.page.url }}"><img src="/assets/images/clear.gif" data-echo="{{ include.page.image }}" alt="{{ include.page.image_alt }}"/></a>
+          <figcaption>{{ include.page.image_caption }}</figcaption>
+        </figure>
+        {% endif %}

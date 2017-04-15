@@ -1,17 +1,16 @@
 @import "common";
 
 #content {
-    margin-top: $header_height;
+    margin-top: $header_height + 10px;
+    @media only screen and (max-width: 359px) { margin-top: $header_height; } // ew
     h1 { font-weight: normal; }
     ol { padding-left: 1em; }
     ul { @extend ol; list-style: none;  }
-    pre { // for syntax highlighting
-        text-align: left;
-        white-space: pre-wrap;       // Since CSS 2.1
-        white-space: -moz-pre-wrap;  // Mozilla, since 1999
-        white-space: -pre-wrap;      // Opera 4-6
-        white-space: -o-pre-wrap;    // Opera 7
-        word-wrap: break-word;       // Internet Explorer 5.5+
+    // for syntax highlighting
+    figure.highlight { margin: 0; }
+    pre {
+        text-align: left; background: $lightestgray;
+        overflow-x: auto; padding: 1em;
     }
     div#search {
         padding-top: 1em;

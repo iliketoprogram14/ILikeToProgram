@@ -3,17 +3,22 @@ layout: post
 title: Dual booting Ubuntu with CUDA on a PC (Pt. 1)
 date: 2013-04-23
 tags: [dual-boot, cuda]
+image: https://upload.wikimedia.org/wikipedia/commons/4/42/%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png
+image_alt: NVIDIA CUDA logo
+image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3A%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png" title="NVIDIA CUDA logo by KhameneiSoldiers via Wikimedia Commons">Wikimedia Commons</a>
+description: Learn how to install Ubuntu alongside Windows on a laptop to use CUDA on a NVIDIA GPU.
 ---
 
 Recently for my systems development class, I teamed up with another student to parallelize a decently sophisticated graph using [CUDA](http://www.nvidia.com/object/cuda_home_new.html){:target="_blank"}, a toolkit for GPU programming using an NVIDIA graphics card. Although it was a fun project, and we achieved pretty impressive result despite only working on it for 2 days, it was a <b>huge</b> pain to set up on my Windows 8 laptop. This is the first post of a series that serves as documentation for setting-up Ubuntu on a second (non-bootable) hard drive on a Windows 8 PC which has both integrated graphics and a discrete, NVIDIA graphics card.
 
-<!--more-->
-
-This series of posts will be consist of the following topics in the following posts: \r\n - The machine, and Why I might want CUDA on Ubuntu instead of on Windows?
+This series of posts will be consist of the following topics in the following posts:
+ - The machine, and Why I might want CUDA on Ubuntu instead of on Windows?
  - Installing Ubuntu
  - Setting up CUDA on your new Ubuntu installation
 
 I'll update the last few bullet points with links to the posts in which they are discussed once the posts are written.
+
+<!--more-->
 
 ## The machine
 
@@ -32,4 +37,4 @@ For my school project, we had an existing C++ 11 project compiled by g++ on an U
 
 So I guess the answer to this question is, it depends. If you have an existing g++ project, you may need to install Ubuntu; otherwise, it's perfectly ok to use cl for a new CUDA project.
 
-Stay tuned for the next post in this series!
+[Click here]({% post_url 2013-04-23-installing-ubuntu-(pt.-2-of-dual-booting-ubuntu) %}) for the next post in the series!
