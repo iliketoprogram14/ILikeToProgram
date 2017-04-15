@@ -3,14 +3,21 @@
   <head>
 {% include head.html %}
   </head>
-  <body onload="document.getElementById('body').style.opacity='1'">
+  <body>
     {% include analytics.html %}
     {% include header.html %}
     <div id="body">
       <div id="content">
-      {{ content }}
+        {{ content }}
       </div>
       {% include footer.html %}
     </div>
   </body>
+  <script src="/assets/js/echo.min.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      document.getElementById('body').style.opacity = '1';
+      echo.init({offset: 1000});
+    }
+  </script>  
 </html>

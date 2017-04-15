@@ -10,7 +10,7 @@
     // Only support screens with min width of 320px (iPhone 5 size)
     @media only screen and (max-width: 359px) {
         font-size: 12px;
-        height: $header_height - 10px;
+        height: $header_height - 10px; // ew
     }
 
     h1#title {

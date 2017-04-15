@@ -2,7 +2,7 @@
       <script>(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-2269837899618933", enable_page_level_ads: true });</script>
       <title>{% if page.title %}{{ page.title }} - {% endif %}i like to program</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="description" content="Personal website for side projects."/>
+      <meta name="description" content={% if page.description %}"{{ page.description }}"{% else %}"Personal website for side projects."{% endif %}/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="/assets/css/style.css"/>
       <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="I like to program">

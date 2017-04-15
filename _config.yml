@@ -14,7 +14,6 @@ exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock
 gems: 
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-tidy
   - jekyll-feed
 sass:
   sass_dir: _sass

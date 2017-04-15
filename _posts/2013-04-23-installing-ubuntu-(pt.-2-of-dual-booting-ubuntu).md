@@ -3,17 +3,19 @@ layout: post
 title: Installing Ubuntu (Pt. 2 of dual booting Ubuntu)
 date: 2013-04-23
 tags: [dual-boot, cuda]
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/256px-UbuntuCoF.svg.png
+image_alt: Ubuntu logo
+image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AUbuntuCoF.svg" title="Ubuntu logo by Canonical Ltd via Wikimedia Commons">Wikimedia Commons</a>
+description: Learn how to install Ubuntu alonside Windows on a laptop to use CUDA.
 ---
 
 This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series [here]({% post_url 2013-04-23-dual-booting-ubuntu-with-cuda-on-a-pc-(pt.-1) %}).
 
-<!--more-->
-
-## Some thoughts
-
 The boot process for Windows 8 has changed quite a bit, as documented by [this post](http://neosmart.net/blog/2011/the-new-windows-8-bootloader/){:target="_blank"}. Although there are lots of guides out there for installing Ubuntu on a machine, there isn't a lot of info for some special cases for Windows 8. For example, there's lot of support out there if you want to install Ubuntu on your primary drive (eg, the C drive), but not very much for installing it on a secondary drive. Although this doesn't seem like a big deal, this is kind of bad considering the rise of SSDs and their falling prices; a quick google search about SSD sales brought up an [article from Forbes](https://www.forbes.com/sites/jasonevangelho/2013/04/21/crunching-the-numbers-should-you-buy-a-hybrid-ssd/#2848787936c9){:target="_blank"} about considering a hybrid drive. Regardless, the big takeaway is that it's becoming more popular to have a small boot drive with a much larger drive or personal home server for documents and media, so it's not unheard of to want to install another OS on a secondary drive.
 
 That said, this post will walk you through how to install Ubuntu on a secondary hard drive. If you want to install Ubuntu on a partition of your primary drive, check out the [Ubuntu dual booting community](https://help.ubuntu.com/community/WindowsDualBoot){:target="_blank"} for some helpful guides and tips.
+
+<!--more-->
 
 Note: As I started writing this post, it looks like the Ubuntu community came out with [a guide to install Ubuntu on a Windows 8 machine using UEFI firmware](https://help.ubuntu.com/community/UEFI){:target="_blank"}. This may prove useful for some people, but it still doesn't address the question of booting up Ubuntu on a second disk.
 
