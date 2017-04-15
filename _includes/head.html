@@ -1,5 +1,10 @@
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-2269837899618933", enable_page_level_ads: true });</script>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2269837899618933",
+          enable_page_level_ads: true
+        });
+      </script>
       <title>{% if page.title %}{{ page.title }} - {% endif %}i like to program</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="description" content={% if page.description %}"{{ page.description }}"{% else %}"Personal website for side projects."{% endif %}/>
@@ -9,3 +14,5 @@
       <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"/>
       <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico"/>
       {% feed_meta %}
+      {% include analytics.html %}
+      
