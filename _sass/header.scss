@@ -1,13 +1,22 @@
 @import "common";
 
 #header {
-    min-height: 90px; max-height: 180px;
-    position: relative;  overflow: hidden;
+    height: $header_height;
+    position: fixed;  overflow: hidden;
+    margin: $center_margin;
+    /* Fixed header effect */
+    top: 0px; z-index: 1; width: $width;
+    background: white;
+    /* Only support screens with min width of 320px (iPhone 5 size) */
+    @media only screen and (max-width: 359px) {
+        font-size: 12px;
+        height: $header_height - 10px;
+    }
 
     h1#title {
         float: left;
-        font-size: 3.25em;
         margin: $center_margin;
+        font-size: 3em;
         a {
             text-decoration: none;
             color: $accent; 
@@ -22,11 +31,7 @@
             position: relative;
             letter-spacing: 2px;
             font-size: 1.25em;
-            @media only screen {
-                @media (min-width: 360px) { margin: 0 0 0 2em; }
-                @media (max-width: 359px) { margin: 0 0 0 0.75em; } /* iPhone 5, etc */
-                @media (max-width: 305px) { margin: 0 0 0 0.5em; }  /* Smart watches */
-            }
+            margin: 0 0 0 1.55em;
             a {
                 color: $link3;
                 text-decoration: none;
