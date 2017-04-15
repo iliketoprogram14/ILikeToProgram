@@ -1,4 +1,4 @@
-/* Shamelessly taken from https://alexpearce.me/2016/02/simpler-jekyll-searching/ */
+// Shamelessly taken from https://alexpearce.me/2016/02/simpler-jekyll-searching/
 (function(window, document, undefined) {
   'use strict';
 

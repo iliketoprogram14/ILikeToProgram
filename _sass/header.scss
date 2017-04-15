@@ -4,10 +4,10 @@
     height: $header_height;
     position: fixed;  overflow: hidden;
     margin: $center_margin;
-    /* Fixed header effect */
+    // Fixed header effect
     top: 0px; z-index: 1; width: $width;
     background: white;
-    /* Only support screens with min width of 320px (iPhone 5 size) */
+    // Only support screens with min width of 320px (iPhone 5 size)
     @media only screen and (max-width: 359px) {
         font-size: 12px;
         height: $header_height - 10px;

@@ -5,13 +5,13 @@
     h1 { font-weight: normal; }
     ol { padding-left: 1em; }
     ul { @extend ol; list-style: none;  }
-    pre {
+    pre { // for syntax highlighting
         text-align: left;
-        white-space: pre-wrap;       /* Since CSS 2.1 */
-        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+        white-space: pre-wrap;       // Since CSS 2.1
+        white-space: -moz-pre-wrap;  // Mozilla, since 1999
+        white-space: -pre-wrap;      // Opera 4-6
+        white-space: -o-pre-wrap;    // Opera 7
+        word-wrap: break-word;       // Internet Explorer 5.5+
     }
     div#search {
         padding-top: 1em;
