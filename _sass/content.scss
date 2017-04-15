@@ -1,8 +1,9 @@
 @import "common";
 
 #content {
-    font-size: $normal_font_size;
-    ol { padding-left: 1em; color: $darkgray; }
+    margin-top: $header_height;
+    h1 { font-weight: normal; }
+    ol { padding-left: 1em; }
     ul { @extend ol; list-style: none;  }
     pre {
         text-align: left;
@@ -16,17 +17,27 @@
         margin-top: 1em;
         max-width: $max-width / 2.72;
     }
-    a#next, a#prev {
+    a#prev {
+        text-align: left;
         text-decoration: none;
+        margin-top: 0.5em;
+        color: $accent;
         float: left;
         padding-right: 1.5em;
-        padding-top: 1.5em;
-        color: $accent;
+    }
+    a#next {
+        @extend a#prev;
+        float: right;
+        padding-right: 0;
     }
     img#profile-picture { padding-left: 1.5em; }
     #tag-index .tag-collection { display: none; }
-    p#tag-list { font-size: $normal_font_size; }
-    p#tag-list a.tag-link { color: $accent; padding-left: 0.5em; }
+
+    p#tag-list {
+        margin-top: 1.5em;
+        text-align: left;
+        a.tag-link { color: $accent; padding-left: 0.25em; }
+    }
     &:after {
         content: "";
         display: block;
