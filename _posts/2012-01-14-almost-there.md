@@ -3,13 +3,17 @@ layout: post
 title: Almost there...
 date: 2012-01-14
 tags: [updates, website]
+image: https://upload.wikimedia.org/wikipedia/commons/0/0d/Prog-languages.png
+image_alt: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AProg-languages.png" title="Language cloud by Wiziq via Wikimedia Commons">Wikimedia Commons</a>
+image_caption: Preview of the new website.
+description: I've almost completed updating my website.
 ---
 
 I've almost finished with the new design. Right now the Projects page is almost done; the only thing missing right now is making programming language links active such that they lead to a list of projects.
 
-<!--more-->
-
 Originally, I wanted to treat languages for projects like tags for posts: clicking a language will display all the projects that were "tagged" with that language. However, currently only one project is displayed at a time, so I think I'm going to make another separate page for viewing projects by language that may look more like a search results screen.
+
+<!--more-->
 
 I also need to think about limiting the number of posts per page on the Home page. That shouldn't be too hard; I'll probably just use GET in php to take care of that functionality.
 

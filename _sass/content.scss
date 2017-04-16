@@ -14,7 +14,7 @@
     }
     div#search {
         padding-top: 1em;
-        max-width: $max-width / 2.75;
+        max-width: $max-width * .685;
     }
     a#prev {
         text-align: left;
