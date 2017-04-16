@@ -3,6 +3,10 @@ layout: post
 title: Host doesn't support applets *grumble grumble*
 date: 2011-07-11
 tags: [updates, tic-tac-toe, fails]
+image: 
+image_alt: 
+image_caption: 
+description: 
 ---
 
 After slaving away on the applet, trying to launch it on this site, I find out by searching some forums that this server doesn't support applets.

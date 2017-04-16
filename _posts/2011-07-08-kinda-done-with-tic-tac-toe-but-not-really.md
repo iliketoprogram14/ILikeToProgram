@@ -3,6 +3,7 @@ layout: post
 title: Kinda done with Tic Tac Toe, but not really...
 date: 2011-07-08
 tags: [updates, tic-tac-toe]
+description: 
 ---
 
 Yay!!!I didn't really work on the applet until this week, and even then, I could not figure out how to handle new games and/or resets. Now, it completely works fine and everything :)There's only a few things I need to work out.
