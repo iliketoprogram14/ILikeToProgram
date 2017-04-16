@@ -3,9 +3,13 @@ layout: post
 title: Wins, school, and more projects
 date: 2011-09-06
 tags: [updates, music-player, isbn-scanner, school]
+image: 
+image_alt: 
+caption: 
+description: 
 ---
 
-Wow it's been a while since I've posted. I guess I'll update you on what I've been doing over the past month.
+It's been a month since I've posted, so I guess I'll update you on what I've been doing over the past month.
 
 <!--more-->
 

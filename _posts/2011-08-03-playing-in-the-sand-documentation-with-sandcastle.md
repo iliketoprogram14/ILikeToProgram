@@ -3,6 +3,7 @@ layout: post
 title: Playing in the sand - documentation with Sandcastle
 date: 2011-08-03
 tags: [updates, music-player]
+description: 
 ---
 
 I used [Sandcastle](http://sandcastle.codeplex.com){"target="blank"} to generate documentation for my C# playlist shuffler.

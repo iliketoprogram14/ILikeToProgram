@@ -3,6 +3,10 @@ layout: post
 title: Music Player Fail
 date: 2011-07-26
 tags: [updates, music-player, fails]
+image: 
+image_alt: 
+image_caption: 
+description: 
 ---
 
 After a week's break, I decided to attempt making a C# Music Player in the form of a [Deskband](http://i.msdn.microsoft.com/dynimg/IC295005.png){:target="_blank"}.
