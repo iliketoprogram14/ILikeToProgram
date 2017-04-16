@@ -3,7 +3,7 @@ layout: post
 title: Playing in the sand - documentation with Sandcastle
 date: 2011-08-03
 tags: [updates, music-player]
-description: 
+description: I've added documentation using Sandcaslte for my music player written in C# for Windows.
 ---
 
 I used [Sandcastle](http://sandcastle.codeplex.com){"target="blank"} to generate documentation for my C# playlist shuffler.

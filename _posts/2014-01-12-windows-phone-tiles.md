@@ -5,7 +5,7 @@ date: 2014-01-12
 tags: [windows-phone]
 image: /assets/images/windows_tiles.png
 image_alt: Windows Phone tiles
-image_caption:  Windows Phone depends on tiles like these.
+image_caption:  Windows Phone depends on tiles like these
 description: This post explains how to set the color of a tile in a Windows Phone application in C#.
 ---
 
