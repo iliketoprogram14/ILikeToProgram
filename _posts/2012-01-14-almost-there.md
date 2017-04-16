@@ -4,8 +4,8 @@ title: Almost there...
 date: 2012-01-14
 tags: [updates, website]
 image: https://upload.wikimedia.org/wikipedia/commons/0/0d/Prog-languages.png
-image_alt: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AProg-languages.png" title="Language cloud by Wiziq via Wikimedia Commons">Wikimedia Commons</a>
-image_caption: Preview of the new website.
+image_alt: Preview of the new website.
+image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AProg-languages.png" title="Language cloud by Wiziq via Wikimedia Commons">Wikimedia Commons</a>
 description: I've almost completed updating my website.
 ---
 
