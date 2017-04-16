@@ -3,6 +3,10 @@ layout: post
 title: Nooooo!!! Apple broke my music player!!!
 date: 2012-01-09
 tags: [updates, music-player, isbn-scanner, school]
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Benz_Darkness.png/256px-Benz_Darkness.png
+image_alt: iTunes
+image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3ABenz_Darkness.png" title="iTunes logo by Benz.darkness via Wikimedia Commons">Wikimedia Commons</a>
+description: My playlist shuffler written in C# depends on parsing iTunes internal xml representation.  Apple changed the structure, breaking the parser, so I've had to adapt accordingly.
 ---
 
 Now that I finally have some free time, I've been working on a couple of projects.
