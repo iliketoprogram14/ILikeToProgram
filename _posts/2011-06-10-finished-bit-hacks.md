@@ -3,7 +3,7 @@ layout: post
 title: Finished Bit Hacks! 
 date: 2011-06-10
 tags: [updates, bit-hacks, work]
-image: http://maxpixel.freegreatpicture.com/Bits-Binary-Code-Binary-System-Binary-Byte-475664
+image: /assets/images/bits_stock.jpg
 image_alt: Bits
 image_caption: Courtesy of <a href="http://maxpixel.freegreatpicture.com/Bits-Binary-Code-Binary-System-Binary-Byte-475664">Maxpixel</a>
 description: Implemented a bunch of bit hacks in C for demonstrative purposes and as to serve as a reference.
