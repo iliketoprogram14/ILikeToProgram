@@ -3,10 +3,10 @@ layout: post
 title: Windows Phone Tiles
 date: 2014-01-12
 tags: [windows-phone]
-image: https://raw.githubusercontent.com/iliketoprogram14/HarvardShuttle/master/assets/live_tile.png
-image_alt: Windows Phone Tile
-image_caption: Live tile for Harvard Shuttle
-description: This post explains how to set the color of a tile in a Windows Phone applicationin C#.
+image: /assets/images/windows_tiles.png
+image_alt: Windows Phone tiles
+image_caption:  Windows Phone depends on tiles like these.
+description: This post explains how to set the color of a tile in a Windows Phone application in C#.
 ---
 
 I really enjoyed making my first Windows Phone app. I'm a fan of the ease of use of C#, and the plethora of libraries allow me to not worry about trivial things like parsing strings, which takes a lot of unnecessary pain at development time. Of course though, there's definitely some weird things with the Windows Phone SDK, just as there are with any other platform.

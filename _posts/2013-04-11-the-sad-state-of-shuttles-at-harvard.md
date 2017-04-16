@@ -3,6 +3,10 @@ layout: post
 title: The sad state of shuttles at Harvard
 date: 2013-04-11
 tags: [harvard, fails, shuttle]
+image: https://raw.githubusercontent.com/iliketoprogram14/HarvardShuttle/master/assets/splash.png
+image_alt: Harvard Shuttle
+image_caption: A Windows 8 app for shuttles around Harvard
+description: I released a Windows 8 "metro" app for Harvard shuttles, since the existing tools for using the shuttles are lackluster, plus I wanted to try making a Windows modern app in C#.
 ---
 
 It's April 2013, and there's still not a great experience at Harvard for a simple task: finding a shuttle time that's relevant to you. As far as I know, students on a laptop/desktop computer can find a shuttle time via one of the following ways:
@@ -10,9 +14,11 @@ It's April 2013, and there's still not a great experience at Harvard for a simpl
  - Go to the [official shuttle tracking website](http://shuttle.harvard.edu){:target="_blank"}, which will display a map with a bunch of routes and moving shuttles.
  - Go to [Shuttleboy](http://shuttleboy.cs50.net/){:target="_blank"}, which has an awesome interface but whose times were up until about a week or two ago, <b>wrong</b> for the 2012-2013 year.
  
+I think that the official shuttle tracking tool is awful because it does not give users the information they want quickly, and (sadly) Shuttleboy was not usable (until just recently) because the times were actually wrong (trust me, this app I made originally depended on the Shuttleboy API, but when I tried integrating it with the official tool's API, times were definitely off; it looks like they recently fixed them, as I just checked while writing this post haha). So, what should a good shuttle app do?
+
 <!--more-->
 
-I think that the official shuttle tracking tool is awful because it does not give users the information they want quickly, and (sadly) Shuttleboy was not usable (until just recently) because the times were actually wrong (trust me, this app I made originally depended on the Shuttleboy API, but when I tried integrating it with the official tool's API, times were definitely off; it looks like they recently fixed them, as I just checked while writing this post haha). So, what should a good shuttle app do?  I think it should enable the following tasks:
+I think it should enable the following tasks:
 
  1. Find "trips", which I define as a trip from point A to point B.
  2. Quickly determine how long (ie, how many minutes) until the next shuttle for their trip departs.
@@ -53,4 +59,4 @@ I don't know if my app looks all that great, but I do feel pretty confident that
 
 I plan on releasing my JSON "database" (if you will) of the shuttle schedule before I graduate, so that others can make use of it for their own apps for other platforms. It's technically usable right now, but I want to spend a lot more time cleaning up the parser and the scraper.
 
-Anyway, I hope you find my app useful, and if you have any feedback about anything or have any questions, please [contact me](/about.html).
+Update (9/2014): The schedules and their format keep changing, and since I've graduated, I've pulled the app from the store and am no longer maintaining it.  I'm still keeping this post up since the tools are still lackluster as of today, and someone may find the code instructive.
