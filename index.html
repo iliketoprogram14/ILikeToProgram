@@ -16,7 +16,7 @@ title: Blog
 </div>
 {% endfor %}
 
-<div id="pagination">
+<nav id="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
       <a href="/" id="prev" title="Previous Page">&laquo; Previous</a>
@@ -28,4 +28,4 @@ title: Blog
   {% if paginator.next_page %} 
     <a href="/page{{ paginator.next_page }}/" id="next" title="Next Page">Next &raquo;</a>
   {% endif %} 
-</div>
+</nav>
