@@ -5,7 +5,7 @@ date: 2013-03-24
 tags: [website, plans, school]
 image: https://raw.githubusercontent.com/iliketoprogram14/ArduinoCar/master/assets/xbeecar.jpg
 image_alt: Kinect-controlled Arduino car
-image_caption: An Arduino car controlled by a Kinect.
+image_caption: An Arduino car controlled by a Kinect
 description: I've included a bunch of new projects, including a Kinect-controlled Arduino car written in C#; a distributed task list implemented in Django, a python framework; a morse code instant messaging hardware project, implemented in Verilog; and a parallel image segmentation project implemented in python using NVIDIA's CUDA.
 ---
 

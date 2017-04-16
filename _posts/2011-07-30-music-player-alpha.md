@@ -3,10 +3,7 @@ layout: post
 title: Music Player Alpha
 date: 2011-07-30
 tags: [updates, music-player]
-image: 
-image_alt: 
-image_caption: 
-description: 
+description: I created a music player that shuffles songs from iTunese playlists, written in C# for Windows.
 ---
 
 Alright, the [first playlist shuffler release I planned for]({{ site.data.projects['playlistshuffler'].url }}) is up. In addition to adding playlist support, I tweaked the xml for playlist use, which is generated from reading the results of the [iTunes importer](http://www.ericdaugherty.com/dev/itunesexport/){:target="_blank"}. I also added an installer and a sort of messy set up wizard that grabs the iTunes playlists.

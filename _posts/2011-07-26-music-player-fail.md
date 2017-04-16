@@ -3,19 +3,19 @@ layout: post
 title: Music Player Fail
 date: 2011-07-26
 tags: [updates, music-player, fails]
-image: 
-image_alt: 
-image_caption: 
-description: 
+image: https://i.stack.imgur.com/cYICU.png
+image_alt: Windows Deskband
+image_caption: A Windows "Deskband"
+description: Creating a music player in C# to shuffle iTunse playlists in Windows.
 ---
 
 After a week's break, I decided to attempt making a C# Music Player in the form of a [Deskband](http://i.msdn.microsoft.com/dynimg/IC295005.png){:target="_blank"}.
 
 But that absolutely failed.
 
-<!--more-->
+Specifically, my computer did not agree with registering my deskband player in the registry no matter what I tried, so I had to go to a Windows Form Application.
 
-Specifically, my computer did not agree with registering my deskband player in the registry, so I had to go to a Windows Form Application.
+<!--more-->
 
 My goal is to create a pretty minimal player that shuffles iTunes music and playlists using different audio libraries for audio support, starting with [Ambiera's IrrKlang engine](http://www.ambiera.com/irrklang/){:target="_blank"}. I've been working pretty hard at this application for two days now, and I'm extremely happy with my progress. Besides two blocking errors, I've only spent a few hours making a simple GUI, implementing play/pause and stop functionality, previous and next song functionality, and shuffling through iTunes playlists. Additionally, it's only using 24MB of RAM and 3% of the CPU, max, which is substantially better than iTunes.
 
