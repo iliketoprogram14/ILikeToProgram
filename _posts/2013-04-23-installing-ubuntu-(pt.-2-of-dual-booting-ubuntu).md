@@ -2,7 +2,7 @@
 layout: post
 title: Installing Ubuntu (Pt. 2 of dual booting Ubuntu)
 date: 2013-04-23
-tags: [dual-boot, cuda]
+tags: [dual-boot, cuda, ubuntu]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/256px-UbuntuCoF.svg.png
 image_alt: Ubuntu logo
 image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AUbuntuCoF.svg" title="Ubuntu logo by Canonical Ltd via Wikimedia Commons">Wikimedia Commons</a>

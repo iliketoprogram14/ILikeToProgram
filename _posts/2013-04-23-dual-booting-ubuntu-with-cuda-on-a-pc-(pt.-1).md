@@ -2,7 +2,7 @@
 layout: post
 title: Dual booting Ubuntu with CUDA on a PC (Pt. 1)
 date: 2013-04-23
-tags: [dual-boot, cuda]
+tags: [dual-boot, cuda, ubuntu]
 image: https://upload.wikimedia.org/wikipedia/commons/4/42/%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png
 image_alt: NVIDIA CUDA logo
 image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3A%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png" title="NVIDIA CUDA logo by KhameneiSoldiers via Wikimedia Commons">Wikimedia Commons</a>
