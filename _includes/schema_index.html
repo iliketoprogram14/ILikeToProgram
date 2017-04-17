@@ -1,0 +1,23 @@
+<!-- Credit to http://pauldambra.github.io/structured-data-with-jekyll.html -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "blogpost": [
+    {% assign items = "" %}
+    {% for post in paginator.posts %}
+      {% capture list_item %}
+        {% include schema_blogpost.html page=post body="false" %}
+      {% endcapture %}
+      {% assign items = items | append: list_item | append: "|||" %}
+    {% endfor %}
+    {% assign items = items | split: "|||" | join: "," %}
+    {{ items }}
+  ],
+  "name": "I like to program"
+}
+</script>
