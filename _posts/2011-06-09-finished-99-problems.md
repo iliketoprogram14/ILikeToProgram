@@ -9,4 +9,4 @@ image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AOC
 description: I implemented '99 problems' in Ocaml.
 ---
 
-99 Problems is now on [GitHub]({{ site.data.projects['99problems'].url }}). I had a lot of this finished a long time ago, but I never got around to posting it. I'm also finishing up the bit hacks, so hopefully those will be up soon.
+99 Problems is now on [GitHub]({{ site.data.projects['99problems'].url }}){:target="_blank"}. I had a lot of this finished a long time ago, but I never got around to posting it. I'm also finishing up the bit hacks, so hopefully those will be up soon.
