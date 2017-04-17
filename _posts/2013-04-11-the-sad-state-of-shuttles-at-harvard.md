@@ -6,7 +6,7 @@ tags: [harvard, fails, shuttle]
 image: https://raw.githubusercontent.com/iliketoprogram14/HarvardShuttle/master/assets/splash.png
 image_alt: Harvard Shuttle
 image_caption: A Windows 8 app for shuttles around Harvard
-description: I released a Windows 8 "metro" app for Harvard shuttles, since the existing tools for using the shuttles are lackluster, plus I wanted to try making a Windows modern app in C#.
+description: I released a Windows 8 'metro' app for Harvard shuttles, since the existing tools for using the shuttles are lackluster, plus I wanted to try making a Windows modern app in C#.
 ---
 
 It's April 2013, and there's still not a great experience at Harvard for a simple task: finding a shuttle time that's relevant to you. As far as I know, students on a laptop/desktop computer can find a shuttle time via one of the following ways:

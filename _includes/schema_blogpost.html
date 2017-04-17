@@ -1,0 +1,37 @@
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ include.page.url }}"
+  },
+  "headline": "{{ include.page.title }}",
+  "datePublished": "{{ include.page.date | date: '%Y-%m-%d' }}",
+  "dateModified": "{{ include.page.date | date: '%Y-%m-%d' }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  },
+  {% if include.body == "true" %}
+  "articleBody": "{{ include.page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
+  {% endif %}
+  "description": "{{ include.page.description }}",
+  "url": "{{ include.page.url }}",
+  "keywords": "{{ include.page.tags | join: ','}}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.author.name }}",
+    "logo": {
+      "@type": "imageObject",
+      "url": "{{ site.url }}/assets/images/publisher_logo.png",
+      "height": "60",
+      "width": "429"
+    }
+  }, 
+  "image": {
+    "@type": "imageObject",
+    "url": "{{ site.url }}/assets/images/post_img.png",
+    "height": "100",
+    "width": "700"
+  }
+}

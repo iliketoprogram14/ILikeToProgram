@@ -5,7 +5,7 @@ date: 2011-10-09
 tags: [updates, school, plans]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_OS_X_Logo.svg/320px-The_OS_X_Logo.svg.png
 image_alt: OS X
-image_caption: Courtesy of <a href="" title="">Wikipedia</a>
+image_caption: Courtesy of <a href="https://en.wikipedia.org/wiki/File:The_OS_X_Logo.svg">Wikimedia Commons</a>
 description: I installed OS X on my laptop and reconfigured parts of my emacs environment.
 ---
 
