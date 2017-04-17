@@ -9,7 +9,7 @@
   },
   "blogpost": [
     {% assign items = "" %}
-    {% for post in paginator.posts %}
+    {% for post in include.paginator.posts %}
       {% capture list_item %}
         {% include schema_blogpost.html page=post body="false" %}
       {% endcapture %}
