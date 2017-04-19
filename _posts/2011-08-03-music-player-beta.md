@@ -15,4 +15,4 @@ description: I've updated my music player side project written in C# for Windows
 
 Currently, the application prompts the user to browse for the iTunes/Music directory, but it may be easier to just search for the iTunes xml library and hope for the best. At the end of the day, I need to design a way to handle errors from a bad library or xml file (the xml file may not be up to date), so that may take up tomorrow night.
 
-Other than those minor issues, I'm done!
+Other than those minor issues, I'm pretty much done!

@@ -54,3 +54,5 @@ Once you're in the BIOS, use the arrow keys to find the "Boot Device" options. G
 Once you've changed the priorities, save your changes and exit the BIOS. Generally, there's a function key that will do this for you; this command is usually listed at the bottom of the BIOS. Now you're ready to install Ubuntu!
 
 Stay tuned for the continuation of this post, which includes installing Ubuntu, setting up the bootloader, and booting into Ubuntu for the first time!
+
+Update: I'll be writing a series of posts on installing multiple distributions of Linux on a single machine, so I'll try to integrate this post into that.
