@@ -23,7 +23,7 @@ I also added four projects I've done over the past year to the [projects page](/
 
 - [A Kinect-controlled Arduino car]({{ site.data.projects['kinectarduinocar'].url }}) (my favorite)
 - [A distributed task list]({{ site.data.projects['distributedtasklist'].url }})
-- [Morse code instant messaging]({{ site.data.projects['morsecodeim'].url }} (Yes, it's just as crazy as it sounds)
+- [Morse code instant messaging]({{ site.data.projects['morsecodeim'].url }}) (Yes, it's just as crazy as it sounds)
 - [Parallel image segmentation]({{ site.data.projects['parallelimage'].url }})
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
