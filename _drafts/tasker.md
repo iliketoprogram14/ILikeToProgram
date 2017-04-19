@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tasker
-date: 2020-01-01
+#date: 
 tags: [android, tasker]
 image: 
 image_alt: 

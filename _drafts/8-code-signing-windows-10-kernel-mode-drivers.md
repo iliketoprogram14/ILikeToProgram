@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Code signing Windows 10 kernel-mode drivers
-date: 2020-01-01
+#date: 
 tags: [windows, drivers]
 image: 
 image_alt: 

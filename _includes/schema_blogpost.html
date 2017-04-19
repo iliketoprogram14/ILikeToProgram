@@ -10,7 +10,7 @@
   "dateModified": "{{ include.page.date | date: '%Y-%m-%d' }}",
   "author": {
     "@type": "Person",
-    "name": "{{ site.author.name }}"
+    "name": "{{ site.author }}"
   },
   {% if include.body == "true" %}
   "articleBody": "{{ include.page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
@@ -20,7 +20,7 @@
   "keywords": "{{ include.page.tags | join: ','}}",
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.author.name }}",
+    "name": "{{ site.author }}",
     "logo": {
       "@type": "imageObject",
       "url": "{{ site.url }}/assets/images/publisher_logo.png",

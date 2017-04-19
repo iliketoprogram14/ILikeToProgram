@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Jekyll website built from scratch using WSL
-date: 2020-01-01
+#date: 
 tags: [jekyll, windows, bash, wsl]
 image: 
 image_alt: 

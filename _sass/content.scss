@@ -1,6 +1,6 @@
 @import "common";
 
-#content {
+#content {    
     margin-top: $header_height + 10px;
     @media only screen and (max-width: 359px) { margin-top: $header_height; } // ew
     h1 { font-weight: normal; }
@@ -31,16 +31,10 @@
     }
     img#profile-picture { padding-left: 1.5em; }
     #tag-index .tag-collection { display: none; }
-
     p#tag-list {
         margin-top: 1.5em;
         text-align: left;
         a.tag-link { color: $accent; padding-left: 0.25em; }
-    }
-    &:after {
-        content: "";
-        display: block;
-        clear: both;
     }
     @import "post";
 }

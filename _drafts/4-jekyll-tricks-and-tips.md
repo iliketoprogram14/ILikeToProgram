@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll tricks and tips
-date: 2020-01-01
+#date: 
 tags: [jekyll]
 image: 
 image_alt: 

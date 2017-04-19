@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing multiple Linux distributions on one PC
-date: 2020-01-01
+#date: 
 tags: [linux, ubuntu, linux-mint, dual-boot]
 image: 
 image_alt: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Schema in your Jekyll website
-date: 2020-01-01
+#date: 
 tags: [jekyll, schema]
 image: 
 image_alt: 

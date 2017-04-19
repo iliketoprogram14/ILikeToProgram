@@ -1,12 +1,10 @@
-# _config.yml
 title: I like to program
 email: iliketoprogram14@gmail.com
 description: Personal website for side projects.
 url: http://iliketoprogram.com
 github_username: iliketoprogram14
 repository: iliketoprogram14/ILikeToProgram
-author:
-  name: Randy Miller
+author: Randy Miller
 
 excerpt_separator: <!--more-->
 paginate: 5
@@ -20,3 +18,14 @@ sass:
   style: compressed
 feed:
   path: atom.xml
+  
+# Once jekyll-seo-tag supports image objects, we can start using it and get rid of the schema* includes
+#logo: /assets/images/publisher_logo.png
+#defaults:
+#  - scope:
+#      path: ""
+#    values:
+#      image:
+#        path: "https://iliketoprogram.com/assets/images/post_img.png"
+#        height: 100
+#        width: 700
