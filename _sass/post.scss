@@ -23,7 +23,7 @@
         margin-top: $line_height;
         clear: both;
         line-height: $line_height;
-        text-align: justify;
+        text-align: left;
         h2 {
             float: none;
             margin: 0;
@@ -43,8 +43,8 @@
         margin-bottom: 1em;
         @media only screen {
             @media (min-width: 460px) { 
-                float: left; 
-                margin-right: 1.25em;
+                float: right; 
+                margin-left: 1.25em;
             }
         }
         img { max-height: 150px; max-width: 300px; }
