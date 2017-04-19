@@ -5,17 +5,20 @@
   </head>
   <body>
     {% include header.html %}
-    <div id="body">
+    <div id="body" class="faded_element">
       <div id="content">
         {{ content }}
       </div>
-      {% include footer.html %}
     </div>
+    {% include footer.html %}
   </body>
   <script src="/assets/js/echo.min.js"></script>
   <script type="text/javascript">
     window.onload = function() {
-      document.getElementById('body').style.opacity = '1';
+      faded_elements = document.getElementsByClassName('faded_element');
+      for (i = 0; i < faded_elements.length; i++) {
+        faded_elements[i].style.opacity = '1';
+      }
       echo.init({offset: 1000});
     }
   </script>  
