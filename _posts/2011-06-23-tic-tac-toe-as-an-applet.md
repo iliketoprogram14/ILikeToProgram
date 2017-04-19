@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Tic Tac Toe - as an applet???
+title: Tic Tac Toe - as an applet?
 date: 2011-06-23
 tags: [updates, tic-tac-toe]
-description: 
+description: Writing Tic Tac Tac in Java as an applet.
 ---
 
 After figuring out applets and GUIs out a few nights ago, I've finally managed to get a working applet ready :)

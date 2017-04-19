@@ -49,6 +49,7 @@
         }
         img { max-height: 150px; max-width: 300px; }
         figcaption {
+            font-size: 0.8em;
             color: $lightgray;
             text-align: center;
             a { color: $link3; &:hover, &:focus { color: $link3_hover; } }

@@ -9,7 +9,7 @@ image_caption: That's an alright interface
 description: I've updated my music player side project written in C# for Windows.
 ---
 
-[The playlist shuffler has been updated]({{ site.data.projects['playlistshuffler'].url }}). I added graphics, a working info pane with scrolling capabilities, and a thumbnail toolbar that allows the user to control the player (sadly, I can't change playlists via jumplists, which would've been awesome). For the final release, I plan to add all documentation and a spec, and maybe a mess around with searching for the iTunes Music Library.
+[The playlist shuffler has been updated]({{ site.data.projects['playlistshuffler'].url }}). I added graphics, a working info pane with scrolling capabilities, and a thumbnail toolbar that allows the user to control the player (sadly, I can't change playlists via jump lists, which would've been awesome). For the final release, I plan to add all documentation and a spec, and maybe a mess around with searching for the iTunes Music Library.
 
 <!--more-->
 

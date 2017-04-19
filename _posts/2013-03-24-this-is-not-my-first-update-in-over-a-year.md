@@ -20,15 +20,16 @@ I took a couple days over spring break (which I'm currently at the end of) to up
 After that, I changed up the font from [Georgia Sans-Serif](http://en.wikipedia.org/wiki/Georgia_(typeface)){:target="_blank"} to Segoe UI, which you should be able to see now if you're on a relatively modern computer. Doing that and adding some spacing between lines made the page a lot cleaner and more readable, and the site doesn't look *that* bad anymore. I still need to fix the color scheme though :P
 
 I also added four projects I've done over the past year to the [projects page](/projects.html):
- - [A Kinect-controlled Arduino car]({{ site.data.projects['kinectarduinocar'].url }}) (my favorite)
- - [A distributed task list]({{ site.data.projects['distributedtasklist'].url }})
- - [Morse code instant messaging]({{ site.data.projects['morsecodeim'].url }} (Yes, it's just as crazy as it sounds)
- - [Parallel image segmentation]({{ site.data.projects['parallelimage'].url }})
+
+- [A Kinect-controlled Arduino car]({{ site.data.projects['kinectarduinocar'].url }}) (my favorite)
+- [A distributed task list]({{ site.data.projects['distributedtasklist'].url }})
+- [Morse code instant messaging]({{ site.data.projects['morsecodeim'].url }} (Yes, it's just as crazy as it sounds)
+- [Parallel image segmentation]({{ site.data.projects['parallelimage'].url }})
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
 
-<div style="width: 640px; margin: 0 auto;"><iframe width="640" height="360" src="http://www.youtube.com/embed/4v98L51F9Vw" frameborder="0" allowfullscreen></iframe></div>
+<p><iframe width="100%" height="480" src="http://www.youtube.com/embed/4v98L51F9Vw" frameborder="0" allowfullscreen></iframe></p>
 
-<div style="width: 640px; margin: 0 auto;"><iframe width="640" height="480" src="http://www.youtube.com/embed/PY2Q4gfPRhg" frameborder="0" allowfullscreen></iframe></div>
+<p><iframe width="100%" height="480" src="http://www.youtube.com/embed/PY2Q4gfPRhg" frameborder="0" allowfullscreen></iframe></p>
 
-<div style="width: 640px; margin: 0 auto;"><iframe width="640" height="480" src="http://www.youtube.com/embed/911IuZZBjJY" frameborder="0" allowfullscreen></iframe></div>
+<p><iframe width="100%" height="480" src="http://www.youtube.com/embed/911IuZZBjJY" frameborder="0" allowfullscreen></iframe></p>

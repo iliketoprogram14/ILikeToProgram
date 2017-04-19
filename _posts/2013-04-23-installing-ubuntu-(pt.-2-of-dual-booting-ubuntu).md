@@ -5,8 +5,8 @@ date: 2013-04-23
 tags: [dual-boot, cuda, ubuntu]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/256px-UbuntuCoF.svg.png
 image_alt: Ubuntu logo
-image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AUbuntuCoF.svg" title="Ubuntu logo by Canonical Ltd via Wikimedia Commons">Wikimedia Commons</a>
-description: Learn how to install Ubuntu alonside Windows on a laptop to use CUDA.
+image_caption: By <a href="https://commons.wikimedia.org/wiki/File%3AUbuntuCoF.svg" target="_blank">Canonical Ltd.</a>
+description: Learn how to install Ubuntu alongside Windows on a laptop to use CUDA.
 ---
 
 This is the second post in a multi-post series of how to dual boot Ubuntu for CUDA programming on a Windows 8 PC. You can find the first post of the series [here]({% post_url 2013-04-23-dual-booting-ubuntu-with-cuda-on-a-pc-(pt.-1) %}).
@@ -21,7 +21,7 @@ Note: As I started writing this post, it looks like the Ubuntu community came ou
 
 ## Prerequisites
 
-First, [you'll need to download Ubuntu](http://www.ubuntu.com/download/desktop){:target="_blank"}. There's usually two types of releases: a release with the latest features which is supported for 18 months, and a "long-term support" release, which is "guaranteed support for five years" from some date. As of the date of this post, Ubuntu 12.10 is the release with the latest features, and Ubuntu 12.04 is the release with long-term support from April 2012. I chose Ubuntu 12.04, for what it's worth. Be sure to download the appropriate architecture (ie, 32 bit or 64 bit).
+First, [you'll need to download Ubuntu](http://www.ubuntu.com/download/desktop){:target="_blank"}. There's usually two types of releases: a release with the latest features which is supported for 18 months, and a "long-term support" release, which is "guaranteed support for five years" from some date. As of the date of this post, Ubuntu 12.10 is the release with the latest features, and Ubuntu 12.04 is the release with long-term support from April 2012. I chose Ubuntu 12.04, for what it's worth. Be sure to download the appropriate architecture (i.e., 32 bit or 64 bit).
 
 Once you've downloaded the "iso" file (which is basically a CD/DVD image file), you'll want to put the iso image onto some type of removable media such as a CD/DVD or a USB flash drive. There's nice guides on the Ubuntu community website which detail how to do this: you can create a CD/DVD with [this guide](https://help.ubuntu.com/community/BurningIsoHowto){:target="_blank"}, or you can create a bootable USB stick using [this guide](https://help.ubuntu.com/community/Installation/FromUSBStick){:target="_blank"}. I tried the CD route, but it failed, so I ultimately made a bootable Ubuntu USB flash drive. To create the bootable stick, you'll need a  (preferably empty) flash drive with at least 2GB of space. The guide prompts you to download and install a tool called Link Live, aka LiLi. Running LiLi is pretty straightforward: you choose a USB stick, select the recently downloaded ISO file, choose the size of persistent data (I chose 0, since I was just using it as an installation stick and not a permanent OS), and then click the lightning button. The process takes a few minutes, but worked flawlessly for me.
 
@@ -37,9 +37,9 @@ Next, we'll need to make room for your brand new Ubuntu installation. We can do 
 
 First, open up the "Disk Management" tool on Windows. In Windows 8, you can find this tool by searching "disk", selecting the "Settings" category, and selecting the "Create and format hard disk partitions". In Windows 7, I think you can search for "disk" or "disk management tool". Once the tool is open, select the disk on which you wish to install Ubuntu; if your disk has multiple partitions, select the partition you want to resize. Right click the selected disk/partition, and select "Shrink volume". This will bring up the following window:
 IMAGE HERE
-The windows shows the total size of the disk/partition, the size that's available to shrink (ie, unused space), the amount to shrink by, and then the leftover space. You'll be asked to select the amount of space to shrink (in MB), which is basically asking, how large do you want your Ubuntu installation to be?  You'll need at least 8 GB for the base Ubuntu installation, and another 5-7 GB for drivers, packages, and CUDA. My ubuntu installation currently takes up around 20 GB, which includes (minimal) data, but I gave it 100 GB in total. I would recommend to at least dedicate 32 GB for the new partition, but of course that amount is very malleable based on your needs.
+The windows shows the total size of the disk/partition, the size that's available to shrink (i.e., unused space), the amount to shrink by, and then the leftover space. You'll be asked to select the amount of space to shrink (in MB), which is basically asking, how large do you want your Ubuntu installation to be?  You'll need at least 8 GB for the base Ubuntu installation, and another 5-7 GB for drivers, packages, and CUDA. My ubuntu installation currently takes up around 20 GB, which includes (minimal) data, but I gave it 100 GB in total. I would recommend to at least dedicate 32 GB for the new partition, but of course that amount is very malleable based on your needs.
 
-Once you have entered in the "amount of space to shrink in MB", you are ready to shrink. A word of warning: <b>shrinking a partition can take a long time</b>. I shrank a 720 GB partition to 620 GB using Ubuntu's partitioning tool, and the process took around 4 hours. I believe the process takes less time with the Windows tool, but I haven't tested that out. Either way, be prepared to have a lot of down time during this stage.
+Once you have entered in the "amount of space to shrink in MB", you are ready to shrink. A word of warning: **shrinking a partition can take a long time**. I shrank a 720 GB partition to 620 GB using Ubuntu's partitioning tool, and the process took around 4 hours. I believe the process takes less time with the Windows tool, but I haven't tested that out. Either way, be prepared to have a lot of down time during this stage.
 
 Once the partition has been successfully shrunk, you're ready to move on to the next step!
 
@@ -47,7 +47,7 @@ Once the partition has been successfully shrunk, you're ready to move on to the 
 
 Next, you'll want to change your boot order, so that your computer tries to boot from your USB drive before trying the hard disk. This step varies by machine, but is still very similar for all users.
 
-First, restart your computer, and try to enter the BIOS. This is usually done by pressing one of the function keys (eg, F1, F2, etc) during the start-up messages. Some machines also accept "Escape" to enter a menu from which the user can enter the BIOS.
+First, restart your computer, and try to enter the BIOS. This is usually done by pressing one of the function keys (eg, F1, F2, etc.) during the start-up messages. Some machines also accept "Escape" to enter a menu from which the user can enter the BIOS.
 
 Once you're in the BIOS, use the arrow keys to find the "Boot Device" options. Generally, these options are in a "Boot" menu, but they can also be hidden in other places. Once you have found the Boot Device options, follow the on-screen instructions to change the boot priority of USB disks/drives. Usually, you can change the boot priority of a device using the Enter key.
 

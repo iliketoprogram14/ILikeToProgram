@@ -17,7 +17,7 @@ One thing that was unnecessarily hard to figure out was altering the color of th
 
 Devs can get around this by right clicking on the file and clicking "View in code". You'll notice that there's a BackgroundColor property under your selected tile template (eg, &#060;TemplateIcon&#062;...&#060;BackgroundColor&#062;&#060;/BackgroundColor&#062;...&#060;/TemplateIconic&#062;). You can change the color by inserting an RGB value between the BackgroundColor tags.
 
-Here's the catch though: there must be no whitespace between the tags and the value. For example, the following xml <b>doesn't</b> work.
+Here's the catch though: there must be no whitespace between the tags and the value. For example, the following xml **doesn't** work.
 
 {% highlight xml %}
 <BackgroundColor> #4477aa </BackgroundColor>
