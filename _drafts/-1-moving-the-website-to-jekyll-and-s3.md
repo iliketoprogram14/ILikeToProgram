@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving the website to Jekyll and GitHub Pages
-date: 2017-04-06
+#date: 2017-04-06
 tags: [updates, website, jekyll, aws-s3, github-pages]
 image: 
 image_alt: 

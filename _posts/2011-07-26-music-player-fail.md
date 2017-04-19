@@ -6,7 +6,7 @@ tags: [updates, music-player, fails]
 image: https://i.stack.imgur.com/cYICU.png
 image_alt: Windows Deskband
 image_caption: A Windows "Deskband"
-description: Creating a music player in C# to shuffle iTunse playlists in Windows.
+description: Creating a music player in C# to shuffle iTunes playlists in Windows.
 ---
 
 After a week's break, I decided to attempt making a C# Music Player in the form of a [Deskband](http://i.msdn.microsoft.com/dynimg/IC295005.png){:target="_blank"}.

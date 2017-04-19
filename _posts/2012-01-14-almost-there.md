@@ -5,7 +5,7 @@ date: 2012-01-14
 tags: [updates, website]
 image: https://upload.wikimedia.org/wikipedia/commons/0/0d/Prog-languages.png
 image_alt: Preview of the new website.
-image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3AProg-languages.png" title="Language cloud by Wiziq via Wikimedia Commons">Wikimedia Commons</a>
+image_caption: By <a href="https://commons.wikimedia.org/wiki/File%3AProg-languages.png" target="_blank">Wiziq Inc.</a>
 description: I've almost completed updating my website.
 ---
 
@@ -15,7 +15,7 @@ Originally, I wanted to treat languages for projects like tags for posts: clicki
 
 <!--more-->
 
-I also need to think about limiting the number of posts per page on the Home page. That shouldn't be too hard; I'll probably just use GET in php to take care of that functionality.
+I also need to think about limiting the number of posts per page on the Home page. That shouldn't be too hard; I'll probably just use GET in PHP to take care of that functionality.
 
 After that, I just need to add photos of completed projects and then whip up the Plans page, which should be extremely easy given that most of the work for it has already been done for the Projects page. Then, I'll need to move the new contents of the site, so I'll need to adjust a few links for that.
 

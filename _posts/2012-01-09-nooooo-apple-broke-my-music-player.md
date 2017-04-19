@@ -5,7 +5,8 @@ date: 2012-01-09
 tags: [updates, music-player, isbn-scanner, school]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Benz_Darkness.png/256px-Benz_Darkness.png
 image_alt: iTunes
-image_caption: Courtesy of <a href="https://commons.wikimedia.org/wiki/File%3ABenz_Darkness.png" title="iTunes logo by Benz.darkness via Wikimedia Commons">Wikimedia Commons</a>
+image_caption: By <a href="https://commons.wikimedia.org/wiki/File%3ABenz_Darkness.png" target="_blank">Benz.darkness</a>
+image_license: ccbysa30
 description: My playlist shuffler written in C# depends on parsing iTunes internal xml representation.  Apple changed the structure, breaking the parser, so I've had to adapt accordingly.
 ---
 
@@ -19,7 +20,7 @@ In other words, this became a great opportunity for me to build a parser myself.
 
 iTunes Match also converted most of my music to the Apple Lossless format, and the audio API the Playlist Shuffler was using (IrrKlang) did not support .m4a files. So, I switched out the IrrKlang API for the [Bass.Net API](http://www.un4seen.com/){:target="_blank"}. It's not as straightforward as IrrKlang, but it supports more audio formats and seems to be more open to full customization. Either way, it now works, and that's all that really matters to me.
 
-Since I was working on it, I fixed a few bugs (a random number generator misbehaved, and converting pathnames from URL encoding to unicode). I also added a progress bar with a status label that's displayed when the iTunes library is being parsed. The source and updated documentation wll be posted later today.
+Since I was working on it, I fixed a few bugs (a random number generator misbehaved, and converting pathnames from URL encoding to Unicode). I also added a progress bar with a status label that's displayed when the iTunes library is being parsed. The source and updated documentation will be posted later today.
 
 I've also been working on an ISBN Scanner for my friend's dad. I have all the backend scripts in place, and I've also designed most of the app; all that needs to be done is the implementation. I should have it done this week or next, and I'll be posting some images/video of the app to demonstrate how it works.
 
