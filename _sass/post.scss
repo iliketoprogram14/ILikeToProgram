@@ -22,7 +22,8 @@
         $line_height: 1.25em;
         margin-top: $line_height;
         clear: both;
-        line-height: $line_height; text-align: justify;
+        line-height: $line_height;
+        text-align: justify;
         h2 {
             float: none;
             margin: 0;
@@ -32,7 +33,6 @@
             line-height: $line_height;
         }
         p { margin-top: 0; }
-        ul, ol { list-style-position: inside; }
     }
     img {
         display: block; margin: auto; max-width: 100%; height: auto;
