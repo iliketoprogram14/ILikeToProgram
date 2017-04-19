@@ -6,7 +6,7 @@ tags: [updates, website, jekyll, s3, github-pages, wsl]
 image: /assets/images/post_img.png
 image_alt: New look
 image_caption: New look for the website
-description: 
+description: iliketoprogram.com has been given a new coat of paint.  It is now built using Jekyll in a Windows dev environment and is hosted in GitHub pages.
 ---
 
 Originally, this site was created during college as a place to show off some side projects when applying for jobs, as well as a means to maintain my super basic web dev skills.  I've since graduated and moved on to getting some jobs, but this website has pretty much [only changed once]({% post_url 2012-01-12-makeover %}), and that was *5 years* ago.
