@@ -3,10 +3,10 @@ layout: post
 title: OS X - on my hp... and more random stuff
 date: 2011-10-09
 tags: [updates, school, plans]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_OS_X_Logo.svg/320px-The_OS_X_Logo.svg.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_OS_X_Logo.svg/197px-The_OS_X_Logo.svg.png
 image_alt: OS X
-image_caption: Courtesy of <a href="https://en.wikipedia.org/wiki/File:The_OS_X_Logo.svg">Wikimedia Commons</a>
-description: I installed OS X on my laptop and reconfigured parts of my emacs environment.
+image_caption: By <a href="https://commons.wikimedia.org/wiki/File:The_OS_X_Logo.svg" target="_blank">1989</a>
+description: I installed OS X on my laptop and reconfigured parts of my Emacs environment.
 ---
 
 Yep, school has started. I'm only taking 3 classes (out of the usual 4), but I'm doing a ton to keep myself busy, including research and holding office hours for Harvard's Systems class.

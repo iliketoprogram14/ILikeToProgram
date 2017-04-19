@@ -7,7 +7,7 @@ repository: iliketoprogram14/ILikeToProgram
 author: Randy Miller
 
 excerpt_separator: <!--more-->
-paginate: 5
+paginate: 8
 future: false
 exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock]
 gems: 
