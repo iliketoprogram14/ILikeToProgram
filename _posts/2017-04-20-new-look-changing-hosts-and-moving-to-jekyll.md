@@ -27,7 +27,7 @@ The site has changed in 3 key ways:
 
 Before these changes, the website looked something like this:
 
-![The old site](/assets/images/oldsite_v2.png "The old site")
+[![The old site](/assets/images/oldsite_v2.png "The old site")](/assets/images/oldsite_v2.png)
 
 In that old design, I treated a flat list of "labels" aka tags as a first-class citizen on the home page.  Looking back, this may not have been a great idea since there will probably be a large amount of tags in the future.  Furthermore, finding posts meant either a) browsing through the labels or b) digging through the archive which was broken down by year and month.  Since my blog was (and still is) pretty small, this is an alright solution, but it won't scale once more content is added to the site.
 
@@ -37,7 +37,7 @@ The plans page has been completely eliminated, since they change all the time de
 
 The biggest change by far is the projects page.
 
-![The old projects page](/assets/images/oldsite_v2_projects.png "The old projects page")
+[![The old projects page](/assets/images/oldsite_v2_projects.png "The old projects page")](/assets/images/oldsite_v2_projects.png)
 
 Binary and source code downloads for the projects were hosted on that page, since GitHub wasn't as popular a website when I first started out.  It effectively had a description, a README, some metadata (e.g., language, documentation), a slide show of screenshots, and a list of downloads.  With the emergence of GitHub and other version control hosting services, the projects page became redundant.  The only things I really miss about that page was how the content was uniformly laid out and the screenshot slide show, but that's not a big loss at all when I get free hosting and no longer have to maintain the page and a bunch of zips.
 
