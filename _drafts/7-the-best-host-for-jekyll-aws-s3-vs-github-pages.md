@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The best host for Jekyll - AWS S3 vs GitHub Pages?
-date: 2020-01-01
+#date: 
 tags: [jekyll, github-pages, aws-s3]
 image: 
 image_alt: 

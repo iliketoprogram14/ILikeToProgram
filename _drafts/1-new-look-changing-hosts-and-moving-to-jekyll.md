@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New look - Changing hosts and moving to Jekyll
-date: 2020-01-01
+#date: 
 tags: [updates, website, jekyll]
 image: /assets/images/post_img.png
 image_alt: New look
@@ -28,3 +28,27 @@ description:
    + Jekyll
    + Windows drivers
    + Personal finance
+
+Originally, this site was created during college as a place to show off some side projects when applying for jobs, as well as a means to maintain my super basic web dev skills.  I've since graduated and moved on to getting some jobs, but this website has pretty much [only changed once]({% post_url 2012-01-12-makeover %}).
+
+It was about time for a refresh.
+
+I've changed the site in 3 key ways:
+ - Layout
+ - Underlying code
+ - Hosting
+
+ As a result, the website is much more performant and functional than before.
+
+<!--more-->
+
+## Layout ##
+
+Before these changes, the website looked something like this:
+
+<img src="/assets/images/oldsite_v2.png" alt="The old site">
+
+In that old design, I treated a flat list of "labels" aka tags as a first class citizen on the home page.  Looking back, this may not have been a great idea since there will probably be a large amount of tags in the future.  Furthermore, finding posts meant either a) browsing through the labels or b) digging through the archive which was broken down by year and month.  Since my blog was (and still is) pretty small, this is an alright solution, but it won't scale once I start adding more content to the website.
+
+I've replaced the archive sidebar with the archive page, which is just a flat list sorted by year.  The posts aren't collapsed or anything, so users can browse the headlines.  I've also added a [Google Custom Search Engine](https://cse.google.com/cse/) search bar so users can quickly find content.  I don't have a replacement for browsing tags right now, but that may be something I'll add later; thanks to some underlying code changes I'll touch on later, doing so would be extremely trivial.
+

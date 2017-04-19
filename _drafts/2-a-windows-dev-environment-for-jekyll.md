@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Windows dev environment for Jekyll websites - WSL
-date: 2020-01-01
+#date: 
 tags: [windows, dev-env, wsl, bash, jekyll]
 image: 
 image_alt: 
