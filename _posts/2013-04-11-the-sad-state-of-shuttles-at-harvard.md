@@ -9,7 +9,10 @@ image_caption: A Windows 8 app for shuttles around Harvard
 description: I released a Windows 8 'metro' app for Harvard shuttles, since the existing tools for using the shuttles are lackluster, plus I wanted to try making a Windows modern app in C#.
 ---
 
-It's April 2013, and there's still not a great experience at Harvard for a simple task: finding a shuttle time that's relevant to you. As far as I know, students on a laptop/desktop computer can find a shuttle time via one of the following ways: 1) go to the [official shuttle tracking website](http://shuttle.harvard.edu){:target="_blank"}, which will display a map with a bunch of routes and moving shuttles, or 2) Go to [Shuttleboy](http://shuttleboy.cs50.net/){:target="_blank"}, which has an awesome interface but whose times were up until about a week or two ago, **wrong** for the 2012-2013 year.
+It's April 2013, and there's still not a great experience at Harvard for a simple task: finding a shuttle time that's relevant to you. As far as I know, students on a laptop/desktop computer can find a shuttle time via one of the following ways:
+
+- Go to the [official shuttle tracking website](http://shuttle.harvard.edu){:target="_blank"}, which will display a map with a bunch of routes and moving shuttles
+- Go to [Shuttleboy](http://shuttleboy.cs50.net/){:target="_blank"}, which has an awesome interface but whose times were up until about a week or two ago, **wrong** for the 2012-2013 year.
 
 I think that the official shuttle tracking tool is awful because it does not give users the information they want quickly, and (sadly) Shuttleboy was not usable (until just recently) because the times were actually wrong (trust me, this app I made originally depended on the Shuttleboy API, but when I tried integrating it with the official tool's API, times were definitely off; it looks like they recently fixed them, as I just checked while writing this post haha). So, what should a good shuttle app do?
 
