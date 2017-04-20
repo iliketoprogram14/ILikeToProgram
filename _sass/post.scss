@@ -33,6 +33,7 @@
             line-height: $line_height;
         }
         p { margin-top: 0; }
+        iframe { all: initial; }
         .video-container {
             // From https://avexdesigns.com/responsive-youtube-embed/
             position: relative;
