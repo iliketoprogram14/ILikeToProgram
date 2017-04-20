@@ -2,7 +2,7 @@
 layout: post
 title: A Windows dev environment for Jekyll websites - WSL
 #date: 
-tags: [windows, dev-env, wsl, bash, jekyll, guide]
+tags: [windows, dev-env, wsl, bash, jekyll, guide, visual-studio-code]
 image: imgur.com/Rq9TURL
 image_alt: 
 image_caption: 
