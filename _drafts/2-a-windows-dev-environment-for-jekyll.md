@@ -55,4 +55,4 @@ Devs can use whatever text editor they want here.  I wanted to try out Visual St
 
 ### Setup ###
 
-First, [download and install the stable build of VSC](https://code.visualstudio.com/).
+First, [download and install the stable build of vscode](https://code.visualstudio.com/).
