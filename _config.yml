@@ -9,7 +9,7 @@ author: Randy Miller
 excerpt_separator: <!--more-->
 paginate: 8
 future: false
-exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock]
+exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock, ".vscode/*"]
 gems: 
   - jekyll-paginate
   - jekyll-sitemap
