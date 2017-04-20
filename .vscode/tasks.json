@@ -1,0 +1,39 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "C:\\Windows\\sysnative\\bash",
+    "isShellCommand": true,
+    "args": ["--login", "-c", "\"jekyll", "serve\""],
+    "showOutput": "always",
+    "tasks": [
+        {
+            "taskName": "serve",
+            "args": [],
+            "isBuildCommand": true,
+            "isBackground": true,
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "future",
+            "args": ["--future"],
+            "isBuildCommand": true,
+            "isBackground": true,
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "drafts",
+            "args": ["--drafts"],
+            "isBuildCommand": true,
+            "isBackground": true,
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "futuredrafts",
+            "args": ["--future", "--drafts"],
+            "isBuildCommand": true,
+            "isBackground": true,
+            "suppressTaskName": true
+        }
+    ]  
+}
