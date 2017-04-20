@@ -28,7 +28,7 @@ I also added four projects I've done over the past year to the [projects page](/
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
 
-<div><iframe width="854" height="480" src="http://www.youtube.com/embed/4v98L51F9Vw" frameborder="0" allowfullscreen></iframe></div>
+<div><iframe width="854" height="480" src="http://www.youtube.com/embed/4v98L51F9Vw" frameborder="0" allowfullscreen>Car</iframe></div>
 
 <div class="video-container"><iframe width="854" height="480" src="http://www.youtube.com/embed/PY2Q4gfPRhg" frameborder="0" allowfullscreen></iframe></div>
 
