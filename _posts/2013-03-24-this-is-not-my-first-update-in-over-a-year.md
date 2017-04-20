@@ -28,8 +28,8 @@ I also added four projects I've done over the past year to the [projects page](/
 
 I also started a Windows 8 app for the Harvard shuttle system during one October weekend, and I'm off to try to finish that off before Monday. In the mean time, here are some videos of the above projects I made!
 
-<div class="video-container"><iframe width="420" height="315" src="https://www.youtube.com/embed/4v98L51F9Vw?ecver=1" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="350" height="197" src="https://www.youtube.com/embed/4v98L51F9Vw?ecver=1" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="video-container"><iframe width="854" height="480" src="https://www.youtube.com/embed/PY2Q4gfPRhg?ecver=1" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="350" height="197" src="https://www.youtube.com/embed/PY2Q4gfPRhg?ecver=1" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="video-container"><iframe width="854" height="480" src="https://www.youtube.com/embed/911IuZZBjJY?ecver=1" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="350" height="197" src="https://www.youtube.com/embed/911IuZZBjJY?ecver=1" frameborder="0" allowfullscreen></iframe></div>
