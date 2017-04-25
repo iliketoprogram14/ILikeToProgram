@@ -27,7 +27,7 @@ The site has changed in 3 key ways:
 
 Before these changes, the website looked something like this:
 
-[![The old site](/assets/images/oldsite_v2.png "The old site")](/assets/images/oldsite_v2.png "The old site")
+{% include post_img.html img_path="/assets/images/oldsite_v2.png" img_alt="The old site" %}
 
 In that old design, I treated a flat list of "labels" aka tags as a first-class citizen on the home page.  Looking back, this may not have been a great idea since there will probably be a large amount of tags in the future.  Furthermore, finding posts meant either a) browsing through the labels or b) digging through the archive which was broken down by year and month.  Since my blog was (and still is) pretty small, this is an alright solution, but it won't scale once more content is added to the site.
 
@@ -37,7 +37,7 @@ The plans page has been completely eliminated, since they change all the time de
 
 The biggest change by far is the projects page.
 
-[![The old projects page](/assets/images/oldsite_v2_projects.png "The old projects page")](/assets/images/oldsite_v2_projects.png "The old projects page")
+{% include post_img.html img_path="/assets/images/oldsite_v2_projects.png" img_alt="The old projects page" %}
 
 Binary and source code downloads for the projects were hosted on that page, since GitHub wasn't as popular a website when I first started out.  It effectively had a description, a README, some metadata (e.g., language, documentation), a slide show of screenshots, and a list of downloads.  With the emergence of GitHub and other version control hosting services, the projects page became redundant.  The only things I really miss about that page was how the content was uniformly laid out and the screenshot slide show, but that's not a big loss at all when I get free hosting and no longer have to maintain the page and a bunch of zips.
 
@@ -68,6 +68,6 @@ Eventually I switched to the free tier at [Hostinger UK](https://www.hostinger.c
 
 In 2017, there are now more options around for cheap hosting low-traffic websites, and even more if a website doesn't need to run any server-side code like PHP.  I moved this site to the super-cheap [Amazon S3](https://aws.amazon.com/s3/){:target="_blank"} for a few days before settling on [GitHub Pages](https://pages.github.com/){:target="_blank"}.  I plan on writing a post comparing the two services, but I found that GitHub pages met all my needs, [can actually build Jekyll sites for you](https://help.github.com/articles/about-github-pages-and-jekyll/){:target="_blank"} (so it doesn't need to be done locally), and is completely free versus the few cents per month for S3 plus the risk of a large bill if a DDoS occurred.
 
-The other change I made in this area was switching domain registrars.  I've used [1&1 Domains](https://www.1and1.com/domain-names?ar=1#stage){:target="_blank"} since this site's inception, but their UX has gone down the drain over the past few years.  I ended up switching to [Amazon Route 53](https://aws.amazon.com/route53/) when I switched my hosting service to S3 in order to use Amazon's CDN, [Amazon Cloudfront](https://aws.amazon.com/cloudfront/){:target="_blank"}, to enjoy SSL support.  The UX for Route 53 is way better; it's much simpler and is not trying to actively upsell you on other products, which is nice for a change.  I've since changed CDNs to [Cloudflare](https://www.cloudflare.com/cdn/){:target="_blank"} which offers a [free tier that includes SSL certificates, a global CDN, and limited DDoS protection](https://www.cloudflare.com/plans/){:target="_blank"}.
+The other change I made in this area was switching domain registrars.  I've used [1&1 Domains](https://www.1and1.com/domain-names){:target="_blank"} since this site's inception, but their UX has gone down the drain over the past few years.  I ended up switching to [Amazon Route 53](https://aws.amazon.com/route53/) when I switched my hosting service to S3 in order to use Amazon's CDN, [Amazon Cloudfront](https://aws.amazon.com/cloudfront/){:target="_blank"}, to enjoy SSL support.  The UX for Route 53 is way better; it's much simpler and is not trying to actively upsell you on other products, which is nice for a change.  I've since changed CDNs to [Cloudflare](https://www.cloudflare.com/cdn/){:target="_blank"} which offers a [free tier that includes SSL certificates, a global CDN, and limited DDoS protection](https://www.cloudflare.com/plans/){:target="_blank"}.
 
 All these changes have resulted in this website, which I hope users will enjoy more.  I'm genuinely looking forward to tinkering with it down the line as well as writing some material for the site.
