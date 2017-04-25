@@ -11,6 +11,7 @@ description:
 
  - Update /etc/hosts to include 127.0.1.1
  - sudo apt-get install apache2
+   + https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment
  - Configure /etc/apache2/sites-available/000-default.conf
  - sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
  - sudo mysql_install_db
@@ -33,3 +34,4 @@ For existing databases
  References
   - https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu
   - https://superuser.com/questions/1064584/bash-on-ubuntu-on-windows-10-unable-to-connect-to-upstart
+  - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Set_up_a_basic_working_environment

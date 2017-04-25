@@ -4,33 +4,33 @@
     "version": "0.1.0",
     "command": "C:\\Windows\\sysnative\\bash",
     "isShellCommand": true,
-    "args": ["--login", "-c", "\"jekyll", "serve\""],
+    "args": ["--login", "-c", "\"jekyll", "serve"],
     "showOutput": "always",
     "tasks": [
         {
             "taskName": "serve",
-            "args": [],
+            "args": ["\""],
             "isBuildCommand": true,
             "isBackground": true,
             "suppressTaskName": true
         },
         {
             "taskName": "future",
-            "args": ["--future"],
+            "args": ["--future\""],
             "isBuildCommand": true,
             "isBackground": true,
             "suppressTaskName": true
         },
         {
             "taskName": "drafts",
-            "args": ["--drafts"],
+            "args": ["--drafts\""],
             "isBuildCommand": true,
             "isBackground": true,
             "suppressTaskName": true
         },
         {
             "taskName": "futuredrafts",
-            "args": ["--future", "--drafts"],
+            "args": ["--future", "--drafts\""],
             "isBuildCommand": true,
             "isBackground": true,
             "suppressTaskName": true
