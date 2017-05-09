@@ -76,3 +76,4 @@ gem install jekyll bundler
 
 ## Your first Jekyll project ##
 
+There are lots of ways to get started with Jekyll, but I recommend nearly starting from scratch in order to build a better understanding of the Jekyll framework.
