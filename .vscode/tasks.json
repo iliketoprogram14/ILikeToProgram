@@ -15,15 +15,18 @@
         },
         {
             "label": "future",
-            "command": "bash --login -c 'jekyll serve --future'"
+            "command": "jekyll serve --future",
+            "problemMatcher": []
         },
         {
             "label": "drafts",
-            "command": "bash --login -c 'jekyll serve --drafts'"
+            "command": "jekyll serve --drafts",
+            "problemMatcher": []
         },
         {
             "label": "futuredrafts",
-            "command": "bash --login -c 'jekyll serve --future --drafts'"
+            "command": "jekyll serve --future --drafts",
+            "problemMatcher": []
         }
     ]
 }
