@@ -5,27 +5,30 @@
     // Tasks menu, ie use Ctrl+C in the terminal.
     "version": "2.0.0",
     "type": "shell",
-    "group": "build",
     "isBackground": true,
     "tasks": [
         {
             "label": "serve",
             "command": "jekyll serve",
+            "group": "build",
             "problemMatcher": []
         },
         {
             "label": "future",
             "command": "jekyll serve --future",
+            "group": "build",
             "problemMatcher": []
         },
         {
             "label": "drafts",
             "command": "jekyll serve --drafts",
+            "group": "build",
             "problemMatcher": []
         },
         {
             "label": "futuredrafts",
             "command": "jekyll serve --future --drafts",
+            "group": "build",
             "problemMatcher": []
         }
     ]
