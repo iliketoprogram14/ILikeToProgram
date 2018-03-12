@@ -1,39 +1,28 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "command": "C:\\Windows\\sysnative\\bash",
-    "isShellCommand": true,
-    "args": ["--login", "-c", "\"jekyll", "serve"],
-    "showOutput": "always",
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 for the documentation
+    // about the tasks.json format.
+    // NOTE: Must be stopped by interacting with the task and not through the
+    // Tasks menu, ie use Ctrl+C in the terminal.
+    "version": "2.0.0",
+    "type": "shell",
+    "group": "build",
+    "isBackground": true,
     "tasks": [
         {
-            "taskName": "serve",
-            "args": ["\""],
-            "isBuildCommand": true,
-            "isBackground": true,
-            "suppressTaskName": true
+            "label": "serve",
+            "command": "bash --login -c 'jekyll serve'"
         },
         {
-            "taskName": "future",
-            "args": ["--future\""],
-            "isBuildCommand": true,
-            "isBackground": true,
-            "suppressTaskName": true
+            "label": "future",
+            "command": "bash --login -c 'jekyll serve --future'"
         },
         {
-            "taskName": "drafts",
-            "args": ["--drafts\""],
-            "isBuildCommand": true,
-            "isBackground": true,
-            "suppressTaskName": true
+            "label": "drafts",
+            "command": "bash --login -c 'jekyll serve --drafts'"
         },
         {
-            "taskName": "futuredrafts",
-            "args": ["--future", "--drafts\""],
-            "isBuildCommand": true,
-            "isBackground": true,
-            "suppressTaskName": true
+            "label": "futuredrafts",
+            "command": "bash --login -c 'jekyll serve --future --drafts'"
         }
     ]  
 }
