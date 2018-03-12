@@ -10,7 +10,8 @@
     "tasks": [
         {
             "label": "serve",
-            "command": "bash --login -c 'jekyll serve'"
+            "command": "jekyll serve",
+            "problemMatcher": []
         },
         {
             "label": "future",
@@ -24,5 +25,5 @@
             "label": "futuredrafts",
             "command": "bash --login -c 'jekyll serve --future --drafts'"
         }
-    ]  
+    ]
 }
