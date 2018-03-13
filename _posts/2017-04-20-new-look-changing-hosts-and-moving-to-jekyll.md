@@ -58,7 +58,7 @@ With Jekyll, content is written in [Markdown](https://en.wikipedia.org/wiki/Mark
 
 There are definitely some cons to Jekyll, especially when trying to adapt it for more complex sites which I'll get into in future posts, but for my purposes and this site, it's absolutely fantastic.
 
-Previously, Jekyll was only meant to be developed on *nix systems or Macs.  However, with the release of the Creator's Update for Windows 10, the [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about){:target="_blank"}, or WSL, is now more than functional as a development environment, and in fact it's easy to build websites using Jekyll in Windows as a result.  I've enjoyed the experience so much that I plan on writing a series of posts about my experience building this site in a Windows environment using Jekyll.
+Previously, Jekyll was only meant to be developed on *nix systems or Macs.  However, with the release of the Creator's Update for Windows 10, the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about){:target="_blank"}, or WSL, is now more than functional as a development environment, and in fact it's easy to build websites using Jekyll in Windows as a result.  I've enjoyed the experience so much that I plan on writing a series of posts about my experience building this site in a Windows environment using Jekyll.
 
 ## Hosting ##
 
