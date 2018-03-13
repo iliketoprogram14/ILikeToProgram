@@ -4,7 +4,7 @@ rvm:
 install: bundle install
 script:
 - bundle exec jekyll build
-- bundle exec htmlproofer --url-ignore "/www.linkedin.com/*/","/www.forbes.com/*/" ./_site --check-favicon --check-opengraph --check-html
+- bundle exec htmlproofer ./_site --check-favicon --check-opengraph --check-html --http_status_ignore [302]
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
