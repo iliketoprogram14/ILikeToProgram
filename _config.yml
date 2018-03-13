@@ -1,7 +1,7 @@
 title: I like to program
 email: iliketoprogram14@gmail.com
 description: Personal website for side projects.
-url: http://iliketoprogram.com
+url: https://iliketoprogram.com
 github_username: iliketoprogram14
 repository: iliketoprogram14/ILikeToProgram
 author: Randy Miller
@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 paginate: 8
 future: false
 exclude: ["*.sh", "*.yml", README.md, .travis.yml, vendor, Gemfile, Gemfile.lock, ".vscode/*"]
-gems: 
+plugins: 
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
