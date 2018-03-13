@@ -25,7 +25,7 @@
         padding-right: 1.5em;
     }
     a#next {
-        @extend a#prev;
+        @extend a, #prev;
         float: right;
         padding-right: 0;
     }
