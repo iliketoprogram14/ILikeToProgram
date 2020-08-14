@@ -3,9 +3,9 @@ layout: post
 title: Dual booting Ubuntu with CUDA on a PC (Pt. 1)
 date: 2013-04-23
 tags: [dual-boot, cuda, ubuntu]
-image: https://upload.wikimedia.org/wikipedia/commons/4/42/%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png
+image: https://upload.wikimedia.org/wikipedia/commons/5/59/CUDA.png
 image_alt: NVIDIA CUDA logo
-image_caption: Via <a href="https://commons.wikimedia.org/wiki/File%3A%DA%A9%D9%88%D8%AF%D8%A7_-_CUDA.png" target="_blank">Wikimedia Commons</a>
+image_caption: Via <a href="https://upload.wikimedia.org/wikipedia/commons/5/59/CUDA.png" target="_blank">Wikimedia Commons</a>
 image_license: ccbysa40
 description: Learn how to install Ubuntu alongside Windows on a laptop to use CUDA on a NVIDIA GPU.
 ---
